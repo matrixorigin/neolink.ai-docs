@@ -1,0 +1,114 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Quick Start": {
+    "message": "快速开始",
+    "description": "The label for category Quick Start in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Quick Start.link.generated-index.description": {
+    "message": "5 分钟快速了解 neolink.ai.",
+    "description": "The generated-index page description for category Quick Start in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Concepts": {
+    "message": "概念",
+    "description": "The label for category Concepts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tasks": {
+    "message": "任务",
+    "description": "The label for category Tasks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tasks.link.generated-index.description": {
+    "message": "This section of the MatrixDC documentation contains pages that show how to do individual tasks. A task page shows how to do a single thing, typically by giving a short sequence of steps.",
+    "description": "The generated-index page description for category Tasks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.User Cases": {
+    "message": "使用场景",
+    "description": "The label for category User Cases in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.User Cases.link.generated-index.description": {
+    "message": "使用 MatrixDC 提供解决方案的典型用户场景.",
+    "description": "The generated-index page description for category User Cases in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contribute": {
+    "message": "社区贡献",
+    "description": "The label for category Contribute in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contribute.link.generated-index.description": {
+    "message": "MatrixDC 的相关概念.",
+    "description": "The generated-index page description for category Contribute in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Concepts.link.generated-index.description": {
+    "message": "Some concepts about MatrixDC.",
+    "description": "The generated-index page description for category Concepts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Configuration": {
+    "message": "相关配置",
+    "description": "The label for category Configuration in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Configuration.link.generated-index.description": {
+    "message": "有关 MatrixDC 的配置选项。",
+    "description": "The generated-index page description for category Configuration in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scenarios": {
+    "message": "应用场景",
+    "description": "The label for category Scenarios in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scenarios.link.generated-index.description": {
+    "message": "以下是我们使用 MatrixDC 支持的一些典型用户场景/解决方案。",
+    "description": "The generated-index page description for category Scenarios in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.User Guide": {
+    "message": "用户指南",
+    "description": "The label for category User Guide in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.User Guide.link.generated-index.description": {
+    "message": "如何从最终用户角度使用 MatrixDC 的用户指南。",
+    "description": "The generated-index page description for category User Guide in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools": {
+    "message": "工具",
+    "description": "The label for category Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools.link.generated-index.description": {
+    "message": "本节将介绍可与 MatrixDC 配合使用的工具。",
+    "description": "The generated-index page description for category Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Release & Plan": {
+    "message": "发布与计划",
+    "description": "The label for category Release & Plan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Release & Plan.link.generated-index.description": {
+    "message": "发布与计划",
+    "description": "The generated-index page description for category Release & Plan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Distributed Inference": {
+    "message": "分布式推理",
+    "description": "The label for category Distributed Inference in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Distributed Inference.link.generated-index.description": {
+    "message": "利用 Ray 集群进行分布式推理",
+    "description": "The generated-index page description for category Distributed Inference in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.APIs": {
+    "message": "APIs",
+    "description": "The label for category APIs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.APIs.link.generated-index.description": {
+    "message": "LLM应用程序开发的API",
+    "description": "The generated-index page description for category APIs in sidebar tutorialSidebar"
+  }
+}
