@@ -15,11 +15,11 @@
     "message": "Tutorial - Extras",
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Quick Start": {
+  "sidebar.tutorialSidebar.category.QuickStart": {
     "message": "快速开始",
     "description": "The label for category Quick Start in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Quick Start.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.QuickStart.link.generated-index.description": {
     "message": "5 分钟快速了解 neolink.ai.",
     "description": "The generated-index page description for category Quick Start in sidebar tutorialSidebar"
   },
@@ -110,5 +110,45 @@
   "sidebar.tutorialSidebar.category.APIs.link.generated-index.description": {
     "message": "LLM应用程序开发的API",
     "description": "The generated-index page description for category APIs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AcademicResource": {
+    "message": "学术资源加速",
+    "description": "The label for category Academic Resource in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.HowtoChooseGPU": {
+    "message": "如何选择 GPU",
+    "description": "The label for category How to ChooseGPU in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ContainerInstance": {
+    "message": "算力实例",
+    "description": "The label for category Container Instance in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.RechargeBilling": {
+    "message": "充值计费",
+    "description": "The label for category Recharge Billing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DataStorage": {
+    "message": "数据存储",
+    "description": "The label for category Data Storage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ConfigureEnvironment": {
+    "message": "配置环境",
+    "description": "The label for category Configure Environment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.FrequentlyAskedProblems": {
+    "message": "常见问题",
+    "description": "The label for category Configure Environment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ServiceAgreement": {
+    "message": "服务协议",
+    "description": "The label for category Configure Environment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Container Instance.link.generated-index.description": {
+    "message": "5 分钟快速了解 neolink.ai.",
+    "description": "The generated-index page description for category Container Instance in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Recharge Billing.link.generated-index.description": {
+    "message": "5 分钟快速了解 neolink.ai.",
+    "description": "The generated-index page description for category Recharge Billing in sidebar tutorialSidebar"
   }
 }
