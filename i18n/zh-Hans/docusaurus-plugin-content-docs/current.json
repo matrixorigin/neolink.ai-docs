@@ -137,11 +137,15 @@
   },
   "sidebar.tutorialSidebar.category.FrequentlyAskedProblems": {
     "message": "常见问题",
-    "description": "The label for category Configure Environment in sidebar tutorialSidebar"
+    "description": "The label for category Frequently Asked Problems in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ServiceAgreement": {
     "message": "服务协议",
-    "description": "The label for category Configure Environment in sidebar tutorialSidebar"
+    "description": "The label for category Service Agreement in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ContactUs": {
+    "message": "联系我们",
+    "description": "The label for category Contact Us in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Container Instance.link.generated-index.description": {
     "message": "5 分钟快速了解 neolink.ai.",
