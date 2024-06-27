@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 11
 title: 联系我们
 sidebar_label: 联系我们
 ---
