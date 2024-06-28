@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/">
             neolink.ai 指南 - 约 5 分钟 ⏱️
           </Link>
         </div>

@@ -1,3 +1,7 @@
+Refer to the link below about how to write markdown documents of MatrixDC:
+
+https://docusaurus.nodejs.cn/docs/docs-introduction
+
 ### Local Development
 
 ```

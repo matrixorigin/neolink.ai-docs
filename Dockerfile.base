@@ -15,5 +15,8 @@ COPY --chown=node:node package.json /home/node/app/
 # Define a development target that installs devDeps and runs in dev mode
 FROM base as development
 WORKDIR /home/node/app
+# Upgrade npm and add git tool
+RUN npm install -g npm@latest
+RUN apk add git
 # Install (not ci) with dependencies, and for Linux vs. Linux Musl (which we use for -alpine)
 RUN npm install --registry=https://registry.npm.taobao.org
