@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 title: 上传数据
 sidebar_label: 上传数据
 ---
