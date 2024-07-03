@@ -135,6 +135,10 @@
     "message": "配置环境",
     "description": "The label for category Configure Environment in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.ComputingPowerCluster": {
+    "message": "算力集群",
+    "description": "The label for Computing Power Cluster in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.FrequentlyAskedProblems": {
     "message": "常见问题",
     "description": "The label for category Frequently Asked Problems in sidebar tutorialSidebar"

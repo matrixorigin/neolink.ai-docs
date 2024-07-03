@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: 数据扩容
 sidebar_label: 数据扩容
 ---
