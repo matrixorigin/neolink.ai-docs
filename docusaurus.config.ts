@@ -73,8 +73,8 @@ const config: Config = {
       navbar: {
         title: 'neolink.ai',
         logo: {
-          alt: 'MatrixDC Logo',
-          src: 'img/kubeagi-logo.png',
+          alt: 'Neolink Logo',
+          src: 'img/neolink.svg',
         },
         items: [
           {
