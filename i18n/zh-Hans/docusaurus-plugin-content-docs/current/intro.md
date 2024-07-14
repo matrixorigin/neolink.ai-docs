@@ -23,14 +23,14 @@ Neolink.AI产品服务由矩阵起源和世纪互联联合开发及运营。
 
 **必看文档**：
 - [快速开始](getstarted)
-- [充值计费](RechargeBilling/rechargebilling)
+- [充值计费](category/rechargebilling)
 
 **常用文档**：
-- [如何选择GPU](HowtoChooseGPU)
+- [如何选择GPU](category/howtochoosegpu)
 - [创建算力实例](ContainerInstance/create%20instance)
 - [SSH连接](ContainerInstance/ssh)
-- [数据存储](DataStorage)
-- [配置环境](ConfigureEnvironment)
+- [数据存储](category/datastorage)
+- [配置环境](category/configureenvironment)
 
 ### 联系我们
 

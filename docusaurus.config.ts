@@ -6,7 +6,7 @@ const config: Config = {
   title: 'neolink.ai',
   tagline: 'GPU Management and Scheduling for AI workloads',
   url: 'http://neolink.ai',
-  baseUrl: '/',
+  baseUrl: '/docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
