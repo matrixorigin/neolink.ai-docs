@@ -1,0 +1,14 @@
+---
+sidebar_position: 3
+title: TensorBoard
+sidebar_label: TensorBoard
+---
+TensorBoard 用于可视化模型的训练过程、模型结构、数据分布等信息，帮助用户更好地理解和调试他们的模型。
+
+### 操作步骤
+
+进入左侧侧边栏中的**我的算力实例**，在具体的实例的内置工具下，点击Tensorboard，进入Tensorboard界面即可查看。
+
+### 注意事项
+
+您需要编写代码将日志写入环境变量**TENSORBOARD_LOG_PATH**所对应的路径，TensorBoard 将自行获取相应目录的数据。
