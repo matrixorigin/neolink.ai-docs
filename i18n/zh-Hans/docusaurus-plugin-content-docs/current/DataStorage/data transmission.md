@@ -6,13 +6,13 @@ sidebar_label: 数据传输
 
 您可以在本地和算力实例之间进行数据上下传，有以下方式：
 
-1.[JupyterLab](../ContainerInstance/jupterlab)
+1.[JupyterLab](../ContainerInstance/jupterlab)：目前 JupyterLab 暂不支持批量文件或文件夹的上传/下载。
 
-2.[Matrix存储管理](createstorage)
+2.[Matrix存储管理](createstorage)：支持上传文件、文件夹。不支持下载文件。
 
-3.scp命令
+3.scp命令：支持使用命令行上传下载文件和文件夹。
 
-4.可视化工具如 [FileZilla](https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en)) 或者 [XShell](https://www.xshellcn.com/zhishi/xshell-cswjjc.html)。
+4.可视化工具如 [FileZilla](https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en)) 或者 [XShell](https://www.xshellcn.com/zhishi/xshell-cswjjc.html)：使用外部软件，拖拉拽即可完成上传下载。
 
 ## 使用JupyterLab上下传
 
@@ -30,8 +30,8 @@ zip -r my_folder.zip my_folder
 ```
 
 
-## 使用存储管理上下传
-参考[存储管理](createstorage)小节。
+## 使用存储管理上传
+在[存储管理](createstorage)小节，说明了如何通过存储管理功能上传文件。
 
 ## scp命令上下传
 此方法支持文件与文件夹的上下传。
