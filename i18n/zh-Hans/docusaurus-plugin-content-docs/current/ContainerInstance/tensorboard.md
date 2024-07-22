@@ -7,7 +7,8 @@ TensorBoard 用于可视化模型的训练过程、模型结构、数据分布�
 
 ### 操作步骤
 
-进入左侧侧边栏中的**我的算力实例**，在具体的实例的内置工具下，点击Tensorboard，进入Tensorboard界面即可查看。
+进入左侧侧边栏中的**算力实例**，在具体的实例的内置工具下，点击Tensorboard，进入Tensorboard界面即可查看。
+<img src={require('../../../../../static/img/tensorboard/tensorboard-1.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 ### 注意事项
 
