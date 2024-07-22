@@ -10,7 +10,7 @@ sidebar_label: 创建算力实例
 
 1.进入左侧侧边栏中的**我的算力实例**，点击**创建实例**。
 
-<img src={require('../../../../../static/img/getstarted/getstarted-create-instance2.png').default} alt="创建实例" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../../../../static/img/getstarted/getstarted-1.png').default} alt="创建实例" style={{width: '600px', height: 'auto'}} />
 
 2.在**创建实例**页面：选择**地区**，选择**计费方式**（按量计费或者包日、包周、包月），选择**GPU型号**、**数量**、**规格**，选择**镜像**（内置了不同的深度学习框架），最后创建即可。如果你需要更大的硬盘用于存放数据，那么请设置需要扩容的大小。
 

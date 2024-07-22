@@ -8,7 +8,7 @@ sidebar_label: 数据传输
 
 1.[JupyterLab](../ContainerInstance/jupterlab)：目前 JupyterLab 暂不支持批量文件或文件夹的上传/下载。
 
-2.[Matrix存储管理](createstorage)：支持上传文件、文件夹。不支持下载文件。
+2.[Matrix存储管理](createstorage)：支持上传文件。不支持上传文件夹，不支持下载文件、文件夹。
 
 3.scp命令：支持使用命令行上传下载文件和文件夹。
 
@@ -19,11 +19,12 @@ sidebar_label: 数据传输
 ### 上传
 
 按照如图所示操作上传文件。
+<img src={require('../../../../../static/img/jupyterlab/jupyterlab-4.png').default} alt="JupyterLab界面" style={{width: '300px', height: 'auto'}} />
 
 ### 下载
 
 按照如图所示操作下载文件,选中文件，然后鼠标右键。
-
+<img src={require('../../../../../static/img/jupyterlab/jupyterlab-5.png').default} alt="JupyterLab界面" style={{width: '500px', height: 'auto'}} />
 注意JupyterLab不能下载文件夹,可以使用命令行工具将文件夹压缩成一个压缩文件。这里是一个常用的压缩命令示例，假设你要将文件夹my_folder压缩成my_folder.zip：
 ```bash
 zip -r my_folder.zip my_folder
