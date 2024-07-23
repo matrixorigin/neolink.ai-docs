@@ -131,6 +131,18 @@
     "message": "数据存储",
     "description": "The label for category Data Storage in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.ModelPlayground": {
+    "message": "模型广场",
+    "description": "The label for category Model Playground in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.APIManagement": {
+    "message": "API管理",
+    "description": "The label for category API Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.APIDocs": {
+    "message": "API文档",
+    "description": "The label for category API Docs in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.ConfigureEnvironment": {
     "message": "配置环境",
     "description": "The label for category Configure Environment in sidebar tutorialSidebar"
