@@ -8,7 +8,7 @@ sidebar_label: JupyterLab
 1.进入左侧侧边栏中的**算力实例**，在具体的实例的内置工具下，点击Jupyterlab，首先进入JupyterLab 启动时的登录界面。
 <img src={require('../../../../../static/img/jupyterlab/jupyterlab-1.png').default} alt="JupyterLab登录" style={{width: '600px', height: 'auto'}} />
 
-2.按照登录界面介绍，利用[ssh](ssh)连接算力实例，在终端输入命令：
+2.按照登录界面介绍，点击具体实例，点击终端，进入终端输入命令：
 ```bash
 jupyter server list
 ```
