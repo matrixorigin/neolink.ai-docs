@@ -1,23 +1,23 @@
 ---
 sidebar_position: 2
-title: 快速开始
-sidebar_label: 快速开始
+title: 使用算力实例
+sidebar_label: 使用算力实例
 ---
 
 ## 创建实例
 
 进入概览页面，进入侧边栏中的**我的算力实例**，点击**创建实例**。
-<img src={require('../../../../static/img/getstarted/getstarted-1.png').default} alt="创建实例" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../../../../static/img/getstarted/getstarted-1.png').default} alt="创建实例" style={{width: '600px', height: 'auto'}} />
 
 ## 租用实例
 
 在**创建实例**页面：选择**地区**，选择**计费方式**（按量计费或者包日、包周、包月），选择**GPU型号**、**数量**、**规格**，选择**镜像**（内置了不同的深度学习框架），最后创建即可。如果你需要更大的硬盘用于存放数据，那么请设置需要扩容的大小。
 
-<img src={require('../../../../static/img/getstarted/getstarted-create-instance3.png').default} alt="租用实例" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/getstarted/getstarted-create-instance3.png').default} alt="租用实例" style={{width: '1000px', height: 'auto'}} />
 
 创建完成后等待开机，今后主要用到的操作入口如下。
 
-![快速开始-租用实例-示意图](../../../../static/img/getstarted/getstarted-create-instance4.png)
+![快速开始-租用实例-示意图](../../../../../static/img/getstarted/getstarted-create-instance4.png)
 
 ## 上传数据
 
@@ -31,7 +31,7 @@ sidebar_label: 快速开始
 
 ## 终端训练
 
-进入侧边栏中的算力实例，在操作中打开终端，在终端中执行您的Python命令等完成训练。
+进入侧边栏中的算力实例，在操作中打开JupyterLab，在JupyterLab中执行您的Python命令等完成训练。
 
 
 
