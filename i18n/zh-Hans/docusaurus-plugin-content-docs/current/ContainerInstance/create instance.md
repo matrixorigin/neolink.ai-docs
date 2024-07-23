@@ -8,7 +8,7 @@ sidebar_label: 创建算力实例
 
 ## 操作步骤
 
-1.进入左侧侧边栏中的**我的算力实例**，点击**创建实例**。
+1.进入左侧侧边栏中的**算力实例**，点击**创建实例**。
 
 <img src={require('../../../../../static/img/getstarted/getstarted-1.png').default} alt="创建实例" style={{width: '600px', height: 'auto'}} />
 
