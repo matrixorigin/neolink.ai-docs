@@ -4,14 +4,8 @@ title: 镜像
 sidebar_label: 镜像
 ---
 
-如果您在一个实例中配置好了环境等，在更换主机以及开新的实例时希望复用该环境，以及长期留存该环境以备日后使用，那么保存镜像将是最好的选择。
+在侧边栏中选择**镜像管理**,可以看到一系列的官方镜像，选择适合的官方镜像后，点击**部署**。
+<img src={require('../../../../../static/img/imgmanagement/imagemanagement-1.png').default} alt="上传数据" style={{width: '1000px', height: 'auto'}} />
 
-### 保存镜像
-
-将某个实例关机后，在更多操作中点击保存镜像，则可以将该实例的整个系统盘保存下来.
-
-已保存的镜像请在镜像管理菜单中查看。
-
-### 加载镜像
-
-租用新实例或者老实例选择更换镜像时，选择自己保存的镜像，这样即可恢复原来实例系统盘中的所有内容
+跳转到已选择官方镜像的创建实例界面。
+<img src={require('../../../../../static/img/imgmanagement/imagemanagement-2.png').default} alt="上传数据" style={{width: '1000px', height: 'auto'}} />

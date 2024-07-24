@@ -1,21 +1,9 @@
 ---
-sidebar_position: 1
-title: API文档
-sidebar_label: API文档
+sidebar_position: 2
+title: Create chat completion
+sidebar_label: Create chat completion
 ---
 
-## 介绍
-
-您可以通过任何语言的 HTTP 请求与我们的大模型 API 进行交互，比如文本生成、Embedding类型等。
-
-## 鉴权
-
-使用API Keys进行鉴权。您可以在UI界面上创建API Keys.所有的API请求都需要在请求头中添加`Authorization`字段:
-```http
-Authorization: Bearer YOUR_API_KEY
-```
-
-## Endpoints
 
 ### Create chat completion
 
@@ -85,63 +73,4 @@ curl -X POST "http://xxx.com/api/v1/chat/completion_messages" \
          "n": 1,
          "max_tokens": 100,
      }'
-```
-
-### Embedding
-
-**POST** `/api/v1/embedding`
-
-#### Headers
-
-- `Content-Type`: application/json
-- `Authorization`: Bearer YOUR_API_KEY
-
-#### Request Body Parameters
-
-| Name          | Type    | Required | Description                              |
-|---------------|---------|----------|------------------------------------------|
-| `model`       | string  | Yes      | The ID of the model to use.              |
-| `input`       | string   | Yes      | Input text to embed, encoded as a string or array of tokens.                             |
-| `encoding_format`  | string | No       | The format to return the embeddings in. Can be either float or base64|
-| `dimensions` | integer   | No       | The number of dimensions the resulting output embeddings should have.                    |
-
-
-#### Response
-
-- **Status Code**: 200 OK
-- **Body**:
-
-```json
-{
-    "code": 0,
-    "message": "success",
-    "result": {
-        "id": "uniqueEmbeddingId",
-        "model": "model",
-        "usage": {"prompt_tokens": 8, "total_tokens": 8},
-        "created_at": 1721676764,
-        "data": [
-            {
-                "index": 0,
-                "embedding": [0.0023064255, -0.009327292, -0.0028842222],
-                "object": "embedding"
-            }
-        ]
-    }
-}
-
-```
-
-#### Curl Example
-
-```curl
-curl -X POST "http://xxx.com/api/v1/embeddings" \
-     -H "Authorization: Bearer YOUR_API_KEY" \
-     -H "Content-Type: application/json" \
-     -d '{
-         "input": "text",
-         "model": "BAAI/bge-m3",
-         "encoding_format": "float",
-         "dimensions": 0
-      }'
 ```
