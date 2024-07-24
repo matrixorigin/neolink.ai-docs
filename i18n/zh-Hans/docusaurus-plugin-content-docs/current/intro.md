@@ -26,8 +26,8 @@ Neolink.AI是一款全面链接算力、数据、知识、模型与企业应用�
 
 **常用文档**：
 - [如何选择GPU](/category/howtochoosegpu)
-- [创建算力实例](/docs/zh-Hans/ContainerInstance/create%20instance)
-- [SSH连接](/docs/zh-Hans/ContainerInstance/ssh)
+- [创建算力实例](/ContainerInstance/create%20instance)
+- [SSH连接](/ContainerInstance/ssh)
 - [数据存储](/category/datastorage)
 - [配置环境](/category/configureenvironment)
 
