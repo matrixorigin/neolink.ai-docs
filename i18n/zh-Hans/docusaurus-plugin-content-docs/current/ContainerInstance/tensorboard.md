@@ -3,7 +3,7 @@ sidebar_position: 3
 title: TensorBoard
 sidebar_label: TensorBoard
 ---
-TensorBoard 用于可视化模型的训练过程、模型结构、数据分布等信息，帮助用户更好地理解和调试他们的模型。
+TensorBoard 用于可视化模型的训练过程、模型结构、数据分布等信息，帮助用户更好地理解和调试他们的模型。更详细的信息可以参考[最佳实践-进行TensorFlow模型训练](../BestPractices/tensorflow)
 
 ### 操作步骤
 

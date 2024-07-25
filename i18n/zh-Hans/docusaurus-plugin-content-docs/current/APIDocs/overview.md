@@ -11,5 +11,5 @@ sidebar_label: 概要
 
 使用API Keys进行鉴权。您可以在以下界面上创建API Keys。所有的API请求都需要在请求头中添加`Authorization`字段:
 ```http
-Authorization: Bearer YOUR_API_KEY
+Authorization: Bearer $YOUR_API_KEY
 ```

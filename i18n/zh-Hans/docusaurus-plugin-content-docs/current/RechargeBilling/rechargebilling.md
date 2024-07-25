@@ -11,7 +11,7 @@ sidebar_label: 充值计费
 当前支持的充值方式有：
 
 - 支付宝充值
-
+- [对公转账](./corporatetransfer)
 
 ## 计费
 
@@ -53,3 +53,24 @@ sidebar_label: 充值计费
 - 最低费用0.01元。
 
 **计费单价**：￥0.01/G/日
+
+### 模型计费
+
+- Neolink.AI提供以下模型服务，计费目前**限免**。
+
+| 厂商   | 模型名称               | 上线价格       |
+|--------|------------------------|----------------|
+| Meta   | Meta-Llama-3-70B      | 即将上线       |
+| Meta   | Meta-Llama-3-8B       | **限时免费**       |
+| Mixtral | Mixtral-8x7B          | 即将上线       |
+| 百川智能 | Baichuan-13B-Chat     | 即将上线       |
+| 通义千问 | Qwen2-72B-Instruct   | 即将上线       |
+| 通义千问 | Qwen2-7B-Instruct    | **限时免费**       |
+| 通义千问 | Qwen1.5-14B-Chat    | 即将上线       |
+| 通义千问 | Qwen1.5-110B-Chat   | 即将上线       |
+| 通义千问 | gte-Qwen2-7B-instruct| 即将上线       |
+| DeepSeek | DeepSeek-V2-Chat      | 即将上线       |
+| Yi      | Yi-1.5-34B-Chat      | 即将上线       |
+| 智谱AI  | ChatGLM3-6B-32K      | 即将上线       |
+| 智谱AI  | GLM-4-9B-Chat        | **限时免费**       |
+| BAAI    | BGE-M3               | **限时免费**       |
