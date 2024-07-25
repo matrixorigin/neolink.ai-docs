@@ -33,6 +33,8 @@ Neolink.AI是一款全面链接算力、数据、知识、模型与企业应用�
 - [SSH连接](/ContainerInstance/ssh)
 - [数据存储](/category/datastorage)
 - [配置环境](/category/configureenvironment)
+- [模型广场](/category/ModelPlayground)
+- [模型API文档](/category/APIDocs)
 
 ### 联系我们
 
