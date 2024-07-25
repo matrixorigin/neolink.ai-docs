@@ -21,18 +21,18 @@ Neolink.AI是一款全面链接算力、数据、知识、模型与企业应用�
 - **模型优化**：利用强大的计算资源，加速人工智能模型的优化和调优过程。
 
 ### 文档推荐
-您可以参考接下来的文档，体验Neolink.AI的各项功能。
+您可以参考接下来的文档，体验 Neolink.AI 的各项功能。
 
 **必看文档**：
-- [快速开始](getstarted)
-- [充值计费](category/rechargebilling)
+- [快速开始](/category/quickstart)
+- [充值计费](/category/rechargebilling)
 
 **常用文档**：
-- [如何选择GPU](category/howtochoosegpu)
-- [创建算力实例](ContainerInstance/create%20instance)
-- [SSH连接](ContainerInstance/ssh)
-- [数据存储](category/datastorage)
-- [配置环境](category/configureenvironment)
+- [如何选择GPU](/category/howtochoosegpu)
+- [创建算力实例](/ContainerInstance/create%20instance)
+- [SSH连接](/ContainerInstance/ssh)
+- [数据存储](/category/datastorage)
+- [配置环境](/category/configureenvironment)
 
 ### 联系我们
 
