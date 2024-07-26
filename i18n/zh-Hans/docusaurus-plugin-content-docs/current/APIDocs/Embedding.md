@@ -30,21 +30,24 @@ sidebar_label: Embedding
 
 ```json
 {
-    "code": 0,
-    "message": "success",
-    "result": {
-        "id": "80faf0f2-60af-47d3-94a5-99b6bbd35987",
-        "model": "BAAI/bge-m3",
-        "usage": {"prompt_tokens": 8, "total_tokens": 8},
-        "created_at": 1721676764,
-        "data": [
-            {
-                "index": 0,
-                "embedding": [0.0023064255, -0.009327292, -0.0028842222],
-                "object": "embedding"
-            }
-        ]
-    }
+    "id": "bf6a810b-84cd-4474-929a-a213642eb391",
+    "model": "BAAI/bge-m3",
+    "usage": {
+        "prompt_tokens": 4,
+        "total_tokens": 4
+    },
+    "created_at": 1721936547,
+    "data": [
+        {
+            "index": 0,
+            "embedding": [
+                -0.009638341143727303,
+                0.05558644235134125,
+                -0.02724376693367958
+            ],
+            "object": "embedding"
+        }
+    ]
 }
 
 ```

@@ -7,7 +7,7 @@ sidebar_label: Create chat completion
 
 ### Create chat completion
 
-**POST** `https://ai.neolink.com/model/api/v1/chat/completion_messages`
+**POST** `https://ai.neolink.com/model/api/v1/chat/completions`
 
 
 #### Headers
@@ -35,19 +35,27 @@ sidebar_label: Create chat completion
 
 ```json
 {
-    "code": 0,
-    "message": "success",
-    "result": {
-        "id": "6e4dd7b4-04ad-44e9-82e1-6fda2de4ce10",
-        "model": "Qwen/Qwen2-7B-Instruct",
-        "answer": "Hello! How can I assist you today?",
-        "usage": {
-            "prompt_tokens": 21,
-            "completion_tokens": 10,
-            "total_tokens": 31,
-            "finish_reason": "stop"
-        },
-        "created_at": 1721800641
+    "id": "cmpl-bd29f845b8d041cbae17771a2d2112b6",
+    "object": "chat.completion",
+    "created": 1721965175,
+    "model": "Qwen/Qwen2-7B-Instruct",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "大模型技术，也称为大模型、大型预训练模型或超大规模模型。",
+                "tool_calls": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": "\n"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 122,
+        "completion_tokens": 92
     }
 }
 
@@ -56,7 +64,7 @@ sidebar_label: Create chat completion
 #### Curl Example
 
 ```curl
-curl -X POST "https://ai.neolink.com/model/api/v1/chat/completion_messages" \
+curl -X POST "https://ai.neolink.com/model/api/v1/chat/completions" \
      -H "Authorization: Bearer $YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
