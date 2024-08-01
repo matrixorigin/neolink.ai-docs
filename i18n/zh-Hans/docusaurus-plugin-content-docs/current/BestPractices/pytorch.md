@@ -5,7 +5,7 @@ sidebar_label: 进行Pytorch 模型训练
 ---
 这是一个demo，说明如何利用pytorch搭建网络模型并训练、测试。
 # 一、用到的数据集和文件说明
-要用到的数据集和python文件放在demo目录下：https://github.com/matrix-dc/mlops-images/tree/main/pytorch/demo。
+要用到的数据集和python文件放在demo目录下：https://github.com/matrix-dc/mlops-images/tree/main/pytorch/demo 。
 demo目录说明：
 <pre>
 demo
