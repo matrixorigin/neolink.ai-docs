@@ -1,29 +1,29 @@
 ---
 sidebar_position: 3
-title: Embedding
-sidebar_label: Embedding
+title: 嵌入
+sidebar_label: 嵌入
 ---
 
-### Embedding
+#### URL
 
 **POST** `https://ai.neolink.com/model/api/v1/embeddings`
 
-#### Headers
+#### 请求头
 
 - `Content-Type`: application/json
 - `Authorization`: Bearer `$YOUR_API_KEY`
 
-#### Request Body Parameters
+#### 请求体参数
 
 | Name          | Type    | Required | Description                              |
 |---------------|---------|----------|------------------------------------------|
-| `model`       | string  | Yes      | The ID of the model to use.              |
-| `input`       | string   | Yes      | Input text to embed, encoded as a string or array of tokens. The length should not exceed 8192 tokens.                             |
-| `encoding_format`  | string | No       | The format to return the embeddings in. Can be either `float` or `base64`.|
-| `dimensions` | integer   | No       | The number of dimensions the resulting output embeddings should have.                    |
+| `model`       | string  | Yes      | 模型的名称              |
+| `input`       | string   | Yes      | 要嵌入的输入文本，编码为字符串或标记数组。长度不应超过 8192 个字节。   |
+| `encoding_format`  | string | No       | 返回嵌入结果的格式。可以是 `float` 或 `base64`。|
+| `dimensions` | integer   | No       | 输出嵌入结果的维度数量。            |
 
 
-#### Response
+#### 返回
 
 - **Status Code**: 200 OK
 - **Body**:
@@ -52,7 +52,7 @@ sidebar_label: Embedding
 
 ```
 
-#### Curl Example
+#### API 调用示例
 
 ```curl
 curl -X POST "https://ai.neolink.com/model/api/v1/embeddings" \

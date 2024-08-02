@@ -1,5 +1,5 @@
 ---
 sidebar_position: 2
-title: Create chat completion
-sidebar_label: Create chat completion
+title: 生成聊天回复
+sidebar_label: 生成聊天回复
 ---

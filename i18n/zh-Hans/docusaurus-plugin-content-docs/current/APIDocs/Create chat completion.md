@@ -1,34 +1,34 @@
 ---
 sidebar_position: 2
-title: Create chat completion
-sidebar_label: Create chat completion
+title: 生成聊天回复
+sidebar_label: 生成聊天回复
 ---
 
 
-### Create chat completion
+### URL
 
 **POST** `https://ai.neolink.com/model/api/v1/chat/completions`
 
 
-#### Headers
+#### 请求头
 
 - `Content-Type`: application/json
 - `Authorization`: Bearer `$YOUR_API_KEY`
 
-#### Request Body Parameters
+#### 请求体参数
 
 | Name          | Type    | Required | Description                                                  |
 |---------------|---------|----------|--------------------------------------------------------------|
-| `model`       | string  | Yes      | The ID of the model to use.                                  |
-| `messages`    | array   | Yes      | An array of message objects, each with a `role` and `content`. `role` is the role of the messages author including `system`, `user`, and `assistant`. `content` is the contents of the system message. |
-| `temperature` | float   | No       | Defaults to 0.7. What sampling temperature to use, between 0 and 1. Higher values like `0.8` will make the output more random, while lower values like 0.2 will make it more focused and deterministic. We generally recommend altering this or `top_p` but not both.                                      |
-| `top_p`       | float   | No       | Defaults to 0.7. An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered. The maximum value is 1. We generally recommend altering this or `temperature` but not both.  |
-| `max_tokens`  | integer   | No       | Defaults to 200. The maximum number of tokens that can be generated in the chat completion. The maximum value is 4096.     |
-| `presence_penalty`  | float   | No       | Defaults to 0. Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.                 |
-| `frequency_penalty`  | float   | No       | Defaults to 0. Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.                   |
-| `stop`  | string   | No       | One sequence where the API will stop generating further tokens. The returned text will not contain the stop sequence. It should not be a null string like `""`.      |
+| `model`       | string  | Yes      | 要使用的模型的名称                                |
+| `messages`    | array   | Yes      | 消息对象数组，每个对象都有`role`和`content`。`role`是信息作者的角色，包括 "系统"、"用户 "和 "助理"。`content`是系统消息的内容。 |
+| `temperature` | float   | No       | 用于控制生成文本的创造性或随机性。默认为 0.7。使用的采样温度，介于 0 和 1 之间。较高的值，如 `0.8`，会使输出更加随机，而较低的值，如 0.2，会使输出更加集中和确定。我们通常建议修改此值或 `top_p`，但不要同时修改。  |
+| `top_p`       | float   | No       | 也称为nucleus sampling，是一个用于控制文本生成中词汇选择的参数。默认为 0.7。温度采样的另一种方法，称为核采样，模型会考虑概率质量为 top_p 的标记的结果。因此，0.1 意味着只考虑概率质量最高的 10% 的标记。最大值为 1。我们通常建议修改该值或 `temperature`，但不能同时修改。  |
+| `max_tokens`  | integer   | No       | 默认为 200。聊天完成时可生成的最大令牌数。最大值为 4096。     |
+| `presence_penalty`  | float   | No       | 是一个用于控制文本生成中某些词或短语出现的频率的参数。默认为 0。介于 -2.0 和 2.0 之间的数值。正值会根据迄今为止是否出现在文本中对新标记进行惩罚，从而增加模型谈论新话题的可能性。|
+| `frequency_penalty`  | float   | No       | 是一个用于调整文本生成中词频的参数。默认为 0。介于 -2.0 和 2.0 之间的数值。正值会根据新标记在文本中的现有频率对其进行惩罚，从而降低模型逐字重复同一行的可能性。 |
+| `stop`  | string   | No       | API 将停止生成其他标记的一个序列。返回的文本将不包含停止序列。不能为是类似`""`的空字符串。 |
 
-#### Response
+#### 返回
 
 - **Status Code**: 200 OK
 - **Body**:
@@ -61,7 +61,7 @@ sidebar_label: Create chat completion
 
 ```
 
-#### Curl Example
+#### API 调用示例
 
 ```curl
 curl -X POST "https://ai.neolink.com/model/api/v1/chat/completions" \
