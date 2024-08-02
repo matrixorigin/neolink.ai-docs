@@ -6,7 +6,7 @@ sidebar_label: Embedding
 
 ### Embedding
 
-**POST** `https://ai.neolink.com/model/api/v1/embeddings`
+**POST** `https://ai-neolink.com/model/api/v1/embeddings`
 
 #### Headers
 

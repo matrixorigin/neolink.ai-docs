@@ -7,7 +7,7 @@ sidebar_label: Create chat completion
 
 ### Create chat completion
 
-**POST** `https://ai.neolink.com/model/api/v1/chat/completion_messages`
+**POST** `https://ai-neolink.com/model/api/v1/chat/completion_messages`
 
 
 #### Headers
