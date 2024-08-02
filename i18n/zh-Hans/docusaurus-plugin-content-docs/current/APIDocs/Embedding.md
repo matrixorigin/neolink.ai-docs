@@ -6,7 +6,7 @@ sidebar_label: 嵌入
 
 #### URL
 
-**POST** `https://ai.neolink.com/model/api/v1/embeddings`
+**POST** `https://ai-neolink.com/model/api/v1/embeddings`
 
 #### 请求头
 

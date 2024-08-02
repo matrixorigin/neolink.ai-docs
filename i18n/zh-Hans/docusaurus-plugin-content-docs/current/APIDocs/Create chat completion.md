@@ -7,7 +7,9 @@ sidebar_label: 生成聊天回复
 
 ### URL
 
-**POST** `https://ai.neolink.com/model/api/v1/chat/completions`
+**POST** `https://ai-neolink.com/model/api/v1/chat/completion_messages`
+
+
 
 
 #### 请求头
