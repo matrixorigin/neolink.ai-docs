@@ -8,17 +8,20 @@ sidebar_label: 创建算力实例
 
 ## 操作步骤
 
-1.进入左侧侧边栏中的**算力实例**，点击**创建实例**。
+1. 进入左侧侧边栏中的**算力实例**，点击**创建实例**。
 
-<img src={require('../../../../../static/img/getstarted/getstarted-1.png').default} alt="创建实例" style={{width: '600px', height: 'auto'}} />
+    <img src={require('../../../../../static/img/getstarted/getstarted-1.png').default} alt="创建实例" style={{width: '400px', height: 'auto'}} />
 
-2.在**创建实例**页面：选择**地区**，选择**计费方式**（按量计费或者包日、包周、包月），选择**GPU型号**、**数量**、**规格**，选择**镜像**（内置了不同的深度学习框架），最后创建即可。如果你需要更大的硬盘用于存放数据，那么请设置需要扩容的大小。
+2. 在**创建实例**页面：选择**付费方式**（按量计费或者包日、包周、包月）、**GPU型号**（4090、H20、H100）、**GPU数量**、**GPU规格**，选择**镜像**（内置了不同的深度学习框架），最后创建即可。如果你需要更大的硬盘用于存放数据，那么请设置需要扩容的大小。
 
-<img src={require('../../../../../static/img/getstarted/getstarted-create-instance3.png').default} alt="租用实例" style={{width: '1000px', height: 'auto'}} />
+    __NOTE__:考虑到 GPU 型号为 H100 的实例无法联网，我们为这类实例配置了定制化的镜像（镜像名称后缀为 **-h100**），以确保使用 pip 和 apt 进行软件包的安装时能够通过代理访问清华源。从而使实例在无网络环境下也能顺利完成软件和所需依赖的安装。
 
-3.返回算力实例页面，等待算力实例创建完成。已创建成功的实例显示在列，且状态为运行中。
+    <img src={require('../../../../../static/img/getstarted/getstarted-create-instance-1.png').default} alt="租用实例" style={{width: '700px', height: 'auto'}} />
 
-![创建算力实例-操作步骤-示意图](../../../../../static/img/containerinstance/containerinstance-1.png)
 
-4.算力实例创建完成后，通过JupyterLab或者SSH连接使用算力实例。
+3. 返回算力实例页面，等待算力实例创建完成。已创建成功的实例显示在列，且状态为运行中。
+
+    ![创建算力实例-操作步骤-示意图](../../../../../static/img/containerinstance/containerinstance-1.png)
+
+4. 算力实例创建完成后，通过JupyterLab或者SSH连接使用算力实例。
 
