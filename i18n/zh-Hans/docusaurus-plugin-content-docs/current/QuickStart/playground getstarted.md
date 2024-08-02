@@ -13,6 +13,6 @@ sidebar_label: 使用模型服务
 <img src={require('../../../../../static/img/getstarted/modelservice2.png').default} alt="模型广场" style={{width: '1000px', height: 'auto'}} />
 3.点击具体的模型，进入模型详情界面，点击Step1.获取API KEY中的**创建**，创建API KEY。
 <img src={require('../../../../../static/img/getstarted/modelservice3.png').default} alt="模型广场" style={{width: '1000px', height: 'auto'}} />
-4.点击后将跳转到API KEY界面，点击**创建API KEY**，创建API KEY成功后，按照[API文档](../category/apidocs)使用模型。
+4.点击后将跳转到API KEY界面，点击**创建API KEY**，创建API KEY成功后，按照[API文档](/category/模型api文档)使用模型。
 <img src={require('../../../../../static/img/getstarted/modelservice4.png').default} alt="模型广场" style={{width: '1000px', height: 'auto'}} />
 
