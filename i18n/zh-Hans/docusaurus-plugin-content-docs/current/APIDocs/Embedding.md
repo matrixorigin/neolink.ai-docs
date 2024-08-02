@@ -18,7 +18,7 @@ sidebar_label: 嵌入
 | Name          | Type    | Required | Description                              |
 |---------------|---------|----------|------------------------------------------|
 | `model`       | string  | Yes      | 模型的名称              |
-| `input`       | string   | Yes      | 要嵌入的输入文本，编码为字符串或标记数组。长度不应超过 8192 个字节。   |
+| `input`       | string   | Yes      | 要嵌入的输ß入文本，编码为字符串或标记数组。长度不应超过 8192 个字节。   |
 | `encoding_format`  | string | No       | 返回嵌入结果的格式。可以是 `float` 或 `base64`。|
 | `dimensions` | integer   | No       | 输出嵌入结果的维度数量。            |
 
