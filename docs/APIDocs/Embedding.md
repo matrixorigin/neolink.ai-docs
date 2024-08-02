@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
-title: Embedding
-sidebar_label: Embedding
+title: 嵌入
+sidebar_label: 嵌入
 ---
 
 

@@ -116,7 +116,7 @@
     "description": "The label for category Academic Resource in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.HowtoChooseGPU": {
-    "message": "如何选择 GPU",
+    "message": "如何选择GPU",
     "description": "The label for category How to ChooseGPU in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ContainerInstance": {
