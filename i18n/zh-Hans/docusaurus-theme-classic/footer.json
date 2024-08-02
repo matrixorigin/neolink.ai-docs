@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/matrix-dc/docs"
   },
   "copyright": {
-    "message": "Copyright © 2024 MatrixDC. Built with Docusaurus.",
+    "message": "Copyright © 2024 矩阵起源（深圳）信息科技有限公司. Built with Docusaurus.",
     "description": "The footer copyright"
   }
 }
