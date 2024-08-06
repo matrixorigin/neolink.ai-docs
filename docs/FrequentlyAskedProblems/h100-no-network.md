@@ -1,5 +1,5 @@
 ---
 sidebar_position: 3
-title: H100 无法联网如何下载所需软件
-sidebar_label: H100 无法联网如何下载所需软件
+title: H100 实例如何离线安装软件
+sidebar_label: H100 实例如何离线安装软件
 ---
