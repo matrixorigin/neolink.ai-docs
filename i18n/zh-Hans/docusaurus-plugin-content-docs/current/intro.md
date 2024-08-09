@@ -28,13 +28,13 @@ Neolink.AI是一款全面链接算力、数据、知识、模型与企业应用�
 - [充值计费](/category/充值计费)
 
 **常用文档**：
-- [如何选择GPU](/category/如何选择GPU)
+- [如何选择GPU](/category/如何选择gpu)
 - [创建算力实例](/ContainerInstance/create%20instance)
 - [SSH连接](/ContainerInstance/ssh)
 - [数据存储](/category/数据存储)
 - [配置环境](/category/配置环境)
 - [模型广场](/category/模型广场)
-- [模型API文档](/category/模型API文档)
+- [模型API文档](/category/模型api文档)
 
 ### 联系我们
 

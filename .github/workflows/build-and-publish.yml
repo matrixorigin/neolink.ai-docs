@@ -1,0 +1,62 @@
+name: Build MatrixDC Document
+
+on:
+  push:
+    branches: [ "main" ]
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Run test'
+
+# Environment variables available to all jobs and steps in this workflow
+env:
+  DOC_IMAGE_URL: matrixdc/docs
+  DEPLOYMENT_NAME: docs
+
+permissions:
+  contents: read
+
+jobs:
+  setup-build-publish-deploy:
+    name: Setup, Build, Publish, and Deploy
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set Variable
+      id: set-env
+      run: |
+        echo "DATE=$(TZ=Asia/Shanghai date +'%Y%m%d')" >> $GITHUB_OUTPUT
+    - uses: benjlevesque/short-sha@v2.2
+      name: Get short commit sha
+      id: short-sha
+    - name: Show Variable
+      run: |
+        echo "varibables ${DOC_IMAGE_URL}:${{ steps.set-env.outputs.DATE }}-${{ steps.short-sha.outputs.sha }} "
+
+    # Build
+    - name: Build Docker image
+      run: |
+        docker build -t "${DOC_IMAGE_URL}:${{ steps.set-env.outputs.DATE }}-${{ steps.short-sha.outputs.sha }}" .
+
+    - name: Login docker hub
+      run: |
+        docker login -u ${{ secrets.HUB_USERNAME }} -p '${{ secrets.HUB_SECRET }}'
+
+    # Push the Docker image to docker hub
+    - name: Publish image
+      id: push-image
+      run: |
+        docker push "${DOC_IMAGE_URL}:${{ steps.set-env.outputs.DATE }}-${{ steps.short-sha.outputs.sha }}"
+        echo "newimage=${DOC_IMAGE_URL}:${{ steps.set-env.outputs.DATE }}-${{ steps.short-sha.outputs.sha }}" >> $GITHUB_OUTPUT
+
+    - name: Upgrade the doc service
+      run: |
+        curl -k -XPATCH -H "Content-Type: application/strategic-merge-patch+json" -H "Authorization: bearer ${{ secrets.K8S_SA_TOKEN }}" "${{ secrets.K8S_API }}"/apis/apps/v1/namespaces/matrixdc-system/deployments/docs --data '{"spec":{"template":{"spec":{"$setElementOrder/containers":[{"name":"docs"}],"containers":[{"image":"${{ steps.push-image.outputs.newimage }}","name":"docs"}]}}}}'

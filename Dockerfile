@@ -1,6 +1,6 @@
 ## Production ##################################################################
 # Also define a production target which doesn't use devDeps
-FROM matrix-dc/docs-node-base:lts as production
+FROM matrixdc/docs-node-base:lts as production
 WORKDIR /home/node/app
 
 # Copy the source code over
@@ -13,4 +13,4 @@ RUN npm run build
 FROM nginx:stable-alpine as deploy
 WORKDIR /usr/share/nginx/html/
 # Copy what we've installed/built from production
-COPY --from=production /home/node/app/build /usr/share/nginx/html/
+COPY --from=production /home/node/app/build /usr/share/nginx/html/docs/
