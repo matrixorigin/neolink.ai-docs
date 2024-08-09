@@ -7,7 +7,7 @@ sidebar_label: 生成聊天回复
 
 ### URL
 
-**POST** `https://ai-neolink.com/model/api/v1/chat/completion_messages`
+**POST** `https://neolink-ai.com/model/api/v1/chat/completions`
 
 
 
@@ -22,7 +22,7 @@ sidebar_label: 生成聊天回复
 | Name          | Type    | Required | Description                                                                                                                                                     |
 |---------------|---------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `model`       | string  | Yes      | 要使用的模型的名称。                                                                                                                                                      |
-| `messages`    | array   | Yes      | 消息对象数组，每个对象都有`role`和`content`。`role`是信息作者的角色，包括 `system`、`user` 和 "assistant"。`content` 是系统消息的内容。                                                               |
+| `messages`    | array   | Yes      | 消息对象数组，每个对象都有`role`和`content`。`role`是信息作者的角色，包括 `system`、`user` 和 `assistant`。`content` 是系统消息的内容。                                                               |
 | `temperature` | float   | No       | 用于控制生成文本的创造性或随机性。默认为 0.7。使用的采样温度，介于 0 和 1 之间。较高的值，如 `0.8`，会使输出更加随机，而较低的值，如 0.2，会使输出更加集中和确定。我们通常建议修改此值或 `top_p`，但不要同时修改。                                         |
 | `top_p`       | float   | No       | 也称为nucleus sampling，是一个用于控制文本生成中词汇选择的参数。默认为 0.7。温度采样的另一种方法，称为核采样，模型会考虑概率质量为 top_p 的标记的结果。因此，0.1 意味着只考虑概率质量最高的 10% 的标记。最大值为 1。我们通常建议修改该值或 `temperature`，但不能同时修改。 |
 | `max_tokens`  | integer | No       | 默认为 200。聊天完成时可生成的最大令牌数。最大值为 4096。                                                                                                                               |
