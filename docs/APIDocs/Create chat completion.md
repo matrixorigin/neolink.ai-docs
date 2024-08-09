@@ -1,5 +1,5 @@
 ---
 sidebar_position: 2
-title: 生成聊天回复
-sidebar_label: 生成聊天回复
+title: 对话补全（Chat）
+sidebar_label: 对话补全（Chat）
 ---
