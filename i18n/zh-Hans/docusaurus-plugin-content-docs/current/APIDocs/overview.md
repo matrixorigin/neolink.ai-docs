@@ -7,7 +7,7 @@ sidebar_label: 概要
 
 ## 介绍
 
-您可以通过任何语言的 HTTP 请求与我们的大模型 API 进行交互，比如文本生成、Embedding类型等。
+您可以通过任何语言的 HTTP 请求与我们的大模型 API 进行交互，比如对话补全、Embedding类型等。
 
 ## 鉴权
 

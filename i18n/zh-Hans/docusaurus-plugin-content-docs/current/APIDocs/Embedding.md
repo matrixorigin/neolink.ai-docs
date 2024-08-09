@@ -1,12 +1,12 @@
 ---
 sidebar_position: 3
-title: 嵌入
-sidebar_label: 嵌入
+title: 嵌入（Embeddings）
+sidebar_label: 嵌入（Embeddings）
 ---
 
 #### URL
 
-**POST** `https://ai-neolink.com/model/api/v1/embeddings`
+**POST** `https://neolink-ai.com/model/api/v1/embeddings`
 
 #### 请求头
 
