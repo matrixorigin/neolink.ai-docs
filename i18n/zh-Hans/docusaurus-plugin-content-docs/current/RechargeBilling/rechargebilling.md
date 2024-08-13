@@ -62,6 +62,7 @@ sidebar_label: 充值计费
 |--------|------------------------|----------------|
 | Meta   | Meta-Llama-3-70B      | 即将上线       |
 | Meta   | Meta-Llama-3-8B       | **限时免费**       |
+| Meta   | Meta-Llama-3-405B      | **限时免费**       |
 | Mixtral | Mixtral-8x7B          | 即将上线       |
 | 百川智能 | Baichuan-13B-Chat     | 即将上线       |
 | 通义千问 | Qwen2-72B-Instruct   | 即将上线       |
