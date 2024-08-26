@@ -3,35 +3,36 @@ sidebar_position: 1
 title: 公开服务
 sidebar_label: 公开服务
 ---
-## Github代理
 
-**服务地址**：[https://ghproxy.com/](https://ghproxy.com/)
+__NOTE:__ 本加速代理服务旨在缓解学术用途中访问 GitHub 和 Hugging Face 时遇到的网络速度问题，方便用户获取相关资源。请注意，本服务不提供稳定性保障，且在遭遇恶意攻击等情况下，可能会随时中止服务。
 
-在克隆仓库时，可以通过在 URL 前添加 `https://ghproxy.com/` 进行加速。例如：
+
+## Github 镜像站
+
+**服务地址**：[https://githubfast.com/](https://githubfast.com/)
+
+在克隆仓库时，将 `https://github.com` 替换为 `https://githubfast.com` 进行加速。例如：
 ```bash
-git clone https://ghproxy.com/https://github.com/user/repository.git
+git clone https://githubfast.com/xxx/xxx.git
 ```
 
-下载 GitHub 文件：当你想下载 GitHub 上的文件时，可以通过https://ghproxy.com/ 进行加速。例如：
+下载 GitHub 文件：当你想下载 GitHub 上的文件时，可以通过 https://githubfast.com/ 进行加速。例如：
 ```bash
-wget https://ghproxy.com/https://github.com/user/repository/archive/refs/heads/main.zip
+wget https://githubfast.com/xx/xxx.zip
 ```
 
-配置 Git 代理：在 Git 全局配置中添加代理设置：
-```bash
-git config --global http.proxy https://ghproxy.com/ git config --global https.proxy https://ghproxy.com/
-```
+## HuggingFace 镜像站
 
-
-## HuggingFace镜像站
 **服务地址**：[https://hf-mirror.com/](https://hf-mirror.com/)
 
 下载 Hugging Face 模型：可以在模型 URL 前添加镜像站地址进行加速。例如：
+
 ```bash
 from transformers import AutoModelForSequenceClassification, AutoTokenizer  model_name ="bert-base-uncased"model = AutoModelForSequenceClassification.from_pretrained(f"https://hf-mirror.com/models/{model_name}/") tokenizer = AutoTokenizer.from_pretrained(f"https://hf-mirror.com/models/{model_name}/")
 ```
 
 替换模型下载 URL：直接将下载模型的 URL 替换为镜像站 URL。例如：
+
 ```bash
 model_name = "bert-base-uncased"model_url = f"https://hf-mirror.com/models/{model_name}/"
 ```
