@@ -34,7 +34,7 @@ Neolink.AI是一款全面链接算力、数据、知识、模型与企业应用�
 - [数据存储](/category/数据存储)
 - [配置环境](/category/配置环境)
 - [模型广场](/category/模型广场)
-- [API文档](/category/API文档)
+- [API文档](/category/api文档)
 
 ### 联系我们
 
