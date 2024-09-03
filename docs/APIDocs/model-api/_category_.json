@@ -1,6 +1,6 @@
 {
-  "label": "API文档",
-  "position": 12,
+  "label": "模型API",
+  "position": 2,
   "link": {
     "type": "generated-index",
     "description": " "
