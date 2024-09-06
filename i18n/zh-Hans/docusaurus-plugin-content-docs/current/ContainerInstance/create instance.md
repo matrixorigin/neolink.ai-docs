@@ -18,7 +18,6 @@ sidebar_label: 创建算力实例
 
     <img src={require('../../../../../static/img/getstarted/getstarted-create-instance-1.png').default} alt="租用实例" style={{width: '700px', height: 'auto'}} />
 
-    在编写和调试代码、上传下载数据到实例、或进行代码展示等不需要使用GPU的场景下，可以选择无卡模式启动。无卡模式下，实例将使用2核CPU、4GB内存，并不配置GPU。该模式的费用为￥0.1/小时。使用无卡模式不会影响实例之前或之后的数据，今后仍然可以在实例列表处切换回正常模式进行开关机操作。
 
 3. 返回算力实例页面，等待算力实例创建完成。已创建成功的实例显示在列，且状态为运行中。
 
