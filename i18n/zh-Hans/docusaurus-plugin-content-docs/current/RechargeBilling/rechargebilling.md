@@ -11,6 +11,7 @@ sidebar_label: 充值计费
 当前支持的充值方式有：
 
 - 支付宝充值
+- 微信充值
 - [对公转账](./corporatetransfer)
 
 ## 计费
