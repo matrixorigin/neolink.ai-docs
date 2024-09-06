@@ -174,5 +174,125 @@
   "sidebar.tutorialSidebar.category.Recharge Billing.link.generated-index.description": {
     "message": "5 分钟快速了解 neolink.ai.",
     "description": "The generated-index page description for category Recharge Billing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.快速开始": {
+    "message": "快速开始",
+    "description": "The label for category 快速开始 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.快速开始.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 快速开始 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.学术资源加速": {
+    "message": "学术资源加速",
+    "description": "The label for category 学术资源加速 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.学术资源加速.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 学术资源加速 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.如何选择GPU": {
+    "message": "如何选择GPU",
+    "description": "The label for category 如何选择GPU in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.如何选择GPU.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 如何选择GPU in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.算力实例": {
+    "message": "算力实例",
+    "description": "The label for category 算力实例 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.算力实例.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 算力实例 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.数据存储": {
+    "message": "数据存储",
+    "description": "The label for category 数据存储 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.数据存储.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 数据存储 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.充值计费": {
+    "message": "充值计费",
+    "description": "The label for category 充值计费 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.充值计费.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 充值计费 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.配置环境": {
+    "message": "配置环境",
+    "description": "The label for category 配置环境 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.配置环境.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 配置环境 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.算力集群": {
+    "message": "算力集群",
+    "description": "The label for category 算力集群 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.算力集群.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 算力集群 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.模型广场": {
+    "message": "模型广场",
+    "description": "The label for category 模型广场 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.模型广场.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 模型广场 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.API文档": {
+    "message": "API文档",
+    "description": "The label for category API文档 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.API文档.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category API文档 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.算力API": {
+    "message": "算力API",
+    "description": "The label for category 算力API in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.算力API.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 算力API in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.模型API": {
+    "message": "模型API",
+    "description": "The label for category 模型API in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.模型API.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 模型API in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.最佳实践": {
+    "message": "最佳实践",
+    "description": "The label for category 最佳实践 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.最佳实践.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 最佳实践 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.服务协议": {
+    "message": "服务协议",
+    "description": "The label for category 服务协议 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.服务协议.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 服务协议 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.常见问题": {
+    "message": "常见问题",
+    "description": "The label for category 常见问题 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.常见问题.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 常见问题 in sidebar tutorialSidebar"
   }
 }
