@@ -18,6 +18,13 @@ sidebar_label: 实例详情
 
 <img src={require('../../../../../static/img/monitoring/monitoring-2.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
 
+
+### 监控
+
+在实例监控页面，您可以查看当前实例的各项指标信息，包括数据盘使用率、GPU和CPU利用率、GPU显存占用情况、内存使用情况、功耗以及温度等参数。
+
+<img src={require('../../../../../static/img/monitoring/monitoring-6.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
+
 ### 日志
 
 在该实例的详情界面中，选择**日志**。进入容器实例日志页面，可查看当前容器实例的日志信息，主要会在实例启动时打印 cuda 信息和 jupyter 启动的日志信息。此外，启动完成后，您还可以查看 Jupyter 操作的相关日志信息。
