@@ -31,35 +31,35 @@ sidebar_label: 存储管理
 
     MinIO Client (mc) 是一个命令行工具，用于与 MinIO 及其他兼容 S3 的存储服务进行交互操作。当前支持以下版本的功能使用：
 
-| 系统架构         | 二进制文件                       |
-|----------------|--------------------------------|
-|  mac-adm64     | https://dl.min.io/client/mc/release/darwin-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
-|  mac-arm64     | https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
-|  windows-amd64 | https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z  |
-|  linux-arm64   | https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
-|  linux-adm64   | https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
+    | 系统架构         | 二进制文件                       |
+    |----------------|--------------------------------|
+    |  mac-adm64     | https://dl.min.io/client/mc/release/darwin-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
+    |  mac-arm64     | https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
+    |  windows-amd64 | https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z  |
+    |  linux-arm64   | https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
+    |  linux-adm64   | https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
 
-以下给出部分架构安装步骤，更详细的安装方式可参考官方文档：https://min.io/docs/minio/linux/index.html
+    以下给出部分架构安装步骤，更详细的安装方式可参考官方文档：https://min.io/docs/minio/linux/index.html
 
-- mac-arm64
+    - mac-arm64
 
-```bash
-curl -O https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z
-chmod +x mc.RELEASE.2021-04-22T17-40-00Z
-sudo mv mc.RELEASE.2021-04-22T17-40-00Z /usr/local/bin/mc
-mc -version
-```
+    ```bash
+    curl -O https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z
+    chmod +x mc.RELEASE.2021-04-22T17-40-00Z
+    sudo mv mc.RELEASE.2021-04-22T17-40-00Z /usr/local/bin/mc
+    mc -version
+    ```
 
-- linux-arm64
+    - linux-arm64
 
-```bash
-wget https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z
-chmod +x mc.RELEASE.2021-04-22T17-40-00Z
-sudo mv mc.RELEASE.2021-04-22T17-40-00Z /usr/local/bin/mc
-mc -version
-```
+    ```bash
+    wget https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z
+    chmod +x mc.RELEASE.2021-04-22T17-40-00Z
+    sudo mv mc.RELEASE.2021-04-22T17-40-00Z /usr/local/bin/mc
+    mc -version
+    ```
 
-1. 添加 alias
+2. 添加 alias
 
     ```bash
     mc config host add <别名> <服务器URL> <访问密钥> <秘密密钥>
@@ -71,7 +71,7 @@ mc -version
     mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
     ```
 
-2. 上传
+3. 上传
    
    - 单个文件上传
 
