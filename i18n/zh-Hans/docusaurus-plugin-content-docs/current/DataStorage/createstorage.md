@@ -50,6 +50,11 @@ sidebar_label: 存储管理
     mc -version
     ```
 
+    - windows-amd64
+      - 点击下载二进制文件 。
+      - 将下载好的二进制文件名称改为`mc.exe`。
+      - 进入到 mc.exe 目录执行相应操作，注意，示例中的 `mc` 命令在 windows下 需替换成 `mc.exe`。
+    
     - linux-arm64
 
     ```bash
@@ -62,7 +67,7 @@ sidebar_label: 存储管理
 2. 添加 alias
 
     ```bash
-    mc config host add <别名> <服务器URL> <访问密钥> <秘密密钥>
+    mc config host add <桶名> <URL> <Access key> <Secret access key>
     ```
 
     示例：
@@ -76,25 +81,25 @@ sidebar_label: 存储管理
    - 单个文件上传
 
    ```bash
-   mc cp <需要上传的文件路径> <别名>/<存储桶路径>
+   mc cp <需要上传的文件路径> <桶名>/<命名空间>
    ```
 
    示例：
 
    ```bash
-   mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
+   mc cp <需要上传的文件路径> bucket-xxxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx
    ```
 
 - 目录上传
   
     ```bash
-    mc cp --recursive <需要上传的目录路径> <别名>/<存储桶路径>
+    mc cp --recursive <需要上传的目录路径> <桶名>/<命名空间>
     ```
 
     示例：
 
     ```bash
-    mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
+    mc cp --recursive <需要上传的目录路径> bucket-xxxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx
     ```
 
 4. 下载
@@ -102,25 +107,25 @@ sidebar_label: 存储管理
    - 单个文件下载
 
    ```bash
-   mc cp <别名>/<存储路径> <本地路径>
+   mc <桶名>/<命名空间>/<存储文件路径> <本地路径>
    ```
 
    示例：
 
    ```bash
-   mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
+   mc bucket-xxxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx/<存储文件路径> <本地路径>
    ```
 
    - 目录
      
    ```bash
-   mc cp --recursive <别名>/<存储目录路径> <本地路径>
+   mc cp --recursive <桶名>/<命名空间>/<存储目录路径> <本地路径>
    ```
 
     示例：
 
     ```bash
-    mc --recursive bucket-xxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx/<存储目录路径> <本地路径>
+    mc --recursive bucket-xxxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx/<存储目录路径> <本地路径>
     ```
 
 
