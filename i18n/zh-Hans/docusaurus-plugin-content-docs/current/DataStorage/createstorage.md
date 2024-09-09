@@ -5,23 +5,123 @@ sidebar_label: 存储管理
 ---
 存储管理为网络共享存储，可挂载至不同实例中。用于实例间的数据共享。实例间共享，可以多点读写，不受实例释放的影响；此外存储后端有多冗余副本，数据可靠性非常高（本地数据盘无冗余备份，有一定概率出现磁盘故障影响数据）
 
-<!-- 优势：实例间共享，可以多点读写，不受实例释放的影响；此外存储后端有多冗余副本，数据可靠性非常高（本地数据盘无冗余备份，有一定概率出现磁盘故障影响数据）
+## 添加存储
 
-劣势：IO性能一般
+进入**算力实例**页面，点击具体的实例，在**存储**中可添加存储，并设置该存储在实例中的具体路径，确定后即可在实例中用该挂载路径访问该存储中的文件。
 
-推荐使用方法：将重要数据或代码存放于文件存储中，所有实例共享，便利的同时数据可靠性也有保障；在训练时，需要高IO性能的数据（如训练数据），先拷贝到实例本地数据盘，从本地盘读数据获得更好的IO性能。如此兼顾便利、安全和性能。 -->
+## 上传文件
 
-## 操作步骤
-1.在左侧侧边栏，选择**存储管理**，默认进入存储管理页面。
-
-点击**上传文件**，选择所需的代码或数据上传。数据盘建议放在实例下的/root/data路径。
+在左侧侧边栏，选择**存储管理**，默认进入存储管理页面。点击**上传文件**，选择所需的代码或数据上传。数据盘建议放在实例下的/root/data路径。
 
 <img src={require('../../../../../static/img/getstarted/getstarted-data1.png').default} alt="上传数据" style={{width: '1000px', height: 'auto'}} />
 
-2.在指定存储所在行，选择**操作**>**上传文件**。
+### 普通上传
 
-<img src={require('../../../../../static/img/getstarted/getstarted-data2.png').default} alt="上传数据" style={{width: '400px', height: 'auto'}} />
+对于小于 200 MiB 的文件，可以通过拖拽或点击上传的方式进行操作，每次仅可上传1个文件。
 
-3.进入**算力实例**页面，点击具体的实例，在**存储**中可添加存储，并设置该存储在实例中的具体路径，确定后即可在实例中用该挂载路径访问该存储中的文件。
+<img src={require('../../../../../static/img/getstarted/getstarted-data2.png').default} alt="普通上传" style={{width: '400px', height: 'auto'}} />
+
+### 超大文件上传
+
+对于超过 200 MiB 的文件，我们提供了大文件上传的解决方案。
+
+<img src={require('../../../../../static/img/getstarted/getstarted-data3.png').default} alt="普通上传" style={{width: '400px', height: 'auto'}} />
+
+1. 安装 MinIO Client(mc)
+
+    MinIO Client (mc) 是一个命令行工具，用于与 MinIO 及其他兼容 S3 的存储服务进行交互操作。当前支持以下版本的功能使用：
+
+| 系统架构         | 二进制文件                       |
+|----------------|--------------------------------|
+|  mac-adm64     | https://dl.min.io/client/mc/release/darwin-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
+|  mac-arm64     | https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
+|  windows-amd64 | https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z  |
+|  linux-arm64   | https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
+|  linux-adm64   | https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
+
+以下给出部分架构安装步骤，更详细的安装方式可参考官方文档：https://min.io/docs/minio/linux/index.html
+
+- mac-arm64
+
+```bash
+curl -O https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z
+chmod +x mc.RELEASE.2021-04-22T17-40-00Z
+sudo mv mc.RELEASE.2021-04-22T17-40-00Z /usr/local/bin/mc
+mc -version
+```
+
+- linux-arm64
+
+```bash
+wget https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z
+chmod +x mc.RELEASE.2021-04-22T17-40-00Z
+sudo mv mc.RELEASE.2021-04-22T17-40-00Z /usr/local/bin/mc
+mc -version
+```
+
+1. 添加 alias
+
+    ```bash
+    mc config host add <别名> <服务器URL> <访问密钥> <秘密密钥>
+    ```
+
+    示例：
+
+    ```bash
+    mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
+    ```
+
+2. 上传
+   
+   - 单个文件上传
+
+   ```bash
+   mc cp <需要上传的文件路径> <别名>/<存储桶路径>
+   ```
+
+   示例：
+
+   ```bash
+   mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
+   ```
+
+- 目录上传
+  
+    ```bash
+    mc cp --recursive <需要上传的目录路径> <别名>/<存储桶路径>
+    ```
+
+    示例：
+
+    ```bash
+    mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
+    ```
+
+4. 下载
+   
+   - 单个文件下载
+
+   ```bash
+   mc cp <别名>/<存储路径> <本地路径>
+   ```
+
+   示例：
+
+   ```bash
+   mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
+   ```
+
+   - 目录
+     
+   ```bash
+   mc cp --recursive <别名>/<存储目录路径> <本地路径>
+   ```
+
+    示例：
+
+    ```bash
+    mc --recursive bucket-xxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx/<存储目录路径> <本地路径>
+    ```
+
 
 
