@@ -135,6 +135,10 @@
     "message": "模型广场",
     "description": "The label for category Model Playground in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.KnowledgeBase": {
+    "message": "知识库",
+    "description": "The label for category Knowledeg Base in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.APIManagement": {
     "message": "API管理",
     "description": "The label for category API Management in sidebar tutorialSidebar"
