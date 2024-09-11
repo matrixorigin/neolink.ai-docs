@@ -65,7 +65,7 @@ sidebar_label: 对话补全（Chat）
 #### API 调用示例
 
 ```curl
-curl -X POST "https://ai.neolink.com/model/api/v1/chat/completions" \
+curl -X POST "https://neolink-ai.com/model/api/v1/chat/completions" \
      -H "Authorization: Bearer $YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
