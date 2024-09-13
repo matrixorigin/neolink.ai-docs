@@ -55,7 +55,7 @@ sidebar_label: 嵌入（Embeddings）
 #### API 调用示例
 
 ```curl
-curl -X POST "https://ai.neolink.com/model/api/v1/embeddings" \
+curl -X POST "https://neolink-ai.com/model/api/v1/embeddings" \
      -H "Authorization: Bearer $YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
