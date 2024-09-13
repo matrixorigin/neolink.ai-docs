@@ -25,17 +25,36 @@ wget https://githubfast.com/xx/xxx.zip
 
 **服务地址**：[https://hf-mirror.com/](https://hf-mirror.com/)
 
-下载 Hugging Face 模型：可以在模型 URL 前添加镜像站地址进行加速。例如：
+以下是如何在 Hugging Face 上下载 `bert-base-uncased` 模型的示例：
 
+- 配置环境变量
+  
 ```bash
-from transformers import AutoModelForSequenceClassification, AutoTokenizer  model_name ="bert-base-uncased"model = AutoModelForSequenceClassification.from_pretrained(f"https://hf-mirror.com/models/{model_name}/") tokenizer = AutoTokenizer.from_pretrained(f"https://hf-mirror.com/models/{model_name}/")
+export HF_ENDPOINT=https://hf-mirror.com
 ```
 
-替换模型下载 URL：直接将下载模型的 URL 替换为镜像站 URL。例如：
+- 安装 transformers 库
 
 ```bash
-model_name = "bert-base-uncased"model_url = f"https://hf-mirror.com/models/{model_name}/"
+pip install transformers
 ```
+
+- 下载 Hugging Face 模型
+
+编写 python 代码并运行：
+
+```python
+from transformers import AutoModel, AutoTokenizer
+
+# 下载 BERT 模型和分词器
+model_name = "bert-base-uncased"
+model = AutoModel.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+print("BERT 模型下载完成！")
+```
+
+<img src={require('../../../../../static/img/accerate/acc-1.png').default} alt="创建集群" style={{width: '700px', height: 'auto'}} />
 
 
 
