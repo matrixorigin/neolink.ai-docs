@@ -49,13 +49,8 @@ https://ai.neolink.com/
 ![alt text](../../../../../static/img/pytorchassets/upload.png)
 
 ## 4.2 方法二、jupyterlab窗口上传文件
-### 4.2.1 获取jupyterlab token
-在实例列表，点击实例名称进入实例详情，在实例详情-日志页面，获取jupyterlab的token，此token在首次打开内置工具jupyterlab页面时要用到。
-![alt text](../../../../../static/img/pytorchassets/jupyterlab-token.png)
-### 4.2.2 打开内置工具jupyterlab
-在实例列表中，点击内置工具jupyterlab，将打开jupyterlab，首次打开，需要输入token登录，或者设置密码登录
-![alt text](../../../../../static/img/pytorchassets/jupyterlab-1.png)
-在jupyterlab左侧创建文件夹，并上传文件
+
+在实例列表中，点击内置工具jupyterlab，将打开jupyterlab。在jupyterlab左侧创建文件夹，并上传文件
 ![alt text](../../../../../static/img/pytorchassets/jupyterlab-2.png)
 
 ## 4.3 方法三、SSH工具上传文件
