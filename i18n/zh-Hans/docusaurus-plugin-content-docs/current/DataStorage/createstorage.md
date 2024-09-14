@@ -33,11 +33,11 @@ sidebar_label: 存储管理
 
     | 系统架构         | 二进制文件                       |
     |----------------|--------------------------------|
-    |  mac-adm64     | https://dl.min.io/client/mc/release/darwin-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
+    |  mac-amd64     | https://dl.min.io/client/mc/release/darwin-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
     |  mac-arm64     | https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
     |  windows-amd64 | https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z  |
     |  linux-arm64   | https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2021-04-22T17-40-00Z|
-    |  linux-adm64   | https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
+    |  linux-amd64   | https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2021-04-22T17-40-00Z |
 
     以下给出部分架构安装步骤，更详细的安装方式可参考官方文档：https://min.io/docs/minio/linux/index.html
 
