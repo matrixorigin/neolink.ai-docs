@@ -15,4 +15,4 @@ sidebar_label: ssh 连接中断问题
 
 <img src={require('../../../../../static/img/qa/ssh-interrupt-3.png').default} alt="" style={{width: '600px', height: 'auto'}} />
 
-有关 Jupyterlab 的更多使用说明，可查看[JupyterLab连接说明](../ContainerInstance/jupterlab.md)
+有关 Jupyterlab 的更多使用说明，可查看[JupyterLab连接说明](../Built-in_tools/jupyterlab.md)

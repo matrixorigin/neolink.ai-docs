@@ -6,7 +6,7 @@ sidebar_label: 数据传输
 
 您可以在本地和算力实例之间进行数据上下传，有以下方式：
 
-1.[JupyterLab](../ContainerInstance/jupterlab)：目前 JupyterLab 暂不支持批量文件或文件夹的上传/下载。
+1.[JupyterLab](../Built-in_tools/jupyterlab.md)：目前 JupyterLab 暂不支持批量文件或文件夹的上传/下载。
 
 2.[存储管理](createstorage)：支持上传文件。不支持上传文件夹，不支持下载文件、文件夹。
 
