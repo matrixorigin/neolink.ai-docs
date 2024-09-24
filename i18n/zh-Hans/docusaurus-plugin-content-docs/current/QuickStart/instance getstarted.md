@@ -35,7 +35,7 @@ sidebar_label: 使用算力实例
 <img src={require('../../../../../static/img/getstarted/getstarted-terminal1.png').default} alt="上传数据" style={{width: '600px', height: 'auto'}} />
 <img src={require('../../../../../static/img/getstarted/getstarted-terminal2.png').default} alt="上传数据" style={{width: '1000px', height: 'auto'}} />
 
-也可以利用[JupyterLab](../ContainerInstance/jupterlab.md)或[SSH连接](../ContainerInstance/ssh.md)完成代码训练。
+也可以利用[JupyterLab](../Built-in_tools/jupyterlab.md)或[SSH连接](../ContainerInstance/ssh.md)完成代码训练。
 
 
 
