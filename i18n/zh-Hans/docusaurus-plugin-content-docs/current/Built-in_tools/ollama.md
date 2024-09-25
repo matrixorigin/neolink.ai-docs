@@ -47,7 +47,7 @@ Ollama Web-UI 是 Ollama 平台的一种基于 Web 的用户界面，允许用�
 
 ### Ollama API
 
-Ollama API 提供了一种简单的方式，允许开发者通过编程接口与 Ollama 模型进行交互。通过 Ollama API，用户可以轻松集成和调用大型语言模型，实现各种自然语言处理任务。
+Ollama API 提供了一种简单的方式，允许开发者通过编程接口与 Ollama 模型进行交互。通过 Ollama API，用户可以轻松集成和调用大型语言模型，实现各种自然语言处理任务。此外，Ollama 兼容 OpenAI 的 [Chat Completions API](https://github.com/ollama/ollama/blob/main/docs/openai.md)，用户可以在本地使用更多与 OpenAI API 相关的工具和应用程序，与 Ollama 模型进行交互，而不需要依赖外部服务。
 
 点击内置工具中的 **Ollama**，会跳转到 API 获取界面。
 
@@ -55,45 +55,51 @@ Ollama API 提供了一种简单的方式，允许开发者通过编程接口与
 
 地址栏中地址就为 Ollama API。下面将介绍如何使用 API 来实现问答。如需了解 Ollama API 的更多用法可参考官方[API 文档](https://github.com/ollama/ollama/blob/main/docs/api.md)。
 
-**请求：**
-  
-```bash
-POST https://xxxx.gw.neolink-ai.com/ollama-api/api/chat
-```
+- cURL
 
-**参数：**
+    ```bash
+    curl https://985046a9-50d0-4f5d-be1d-fbad9568xxxx.gw.neolink-ai.com/ollama-api/api/chat \
+        -H "Content-Type: application/json" \
+        -d '{
+            "model": "llama3.1",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant."
+                },
+                {
+                    "role": "user",
+                    "content": "what is llama?"
+                }
+            ],
+        "stream": false
+        }'
+    ```
 
-- model: （必需）模型名称
-- messages: 聊天消息，可以用来保持聊天记录，具有以下字段：
-  - role: 消息的角色，可以是系统（system）、用户（user）、助手（assistant）或工具（tool）
-  - content: 消息的内容
-  - images（可选）: 要包含在消息中的图像列表（适用于多模态模型，例如 llava）
-  - tool_calls（可选）: 模型想要使用的工具列表
-- tools: 模型可使用的工具（如果支持）。需要将 `stream` 设置为 false
+    <img src={require('../../../../../static/img/tools/ollama-6.png').default} alt="ollama" style={{width: '800px', height: 'auto'}} />
 
-**高级参数（可选）：**
+- Open Python library
 
-- format: 返回响应的格式。当前唯一接受的值是 json
-- options: 在 Modelfile 文档中列出的额外模型参数，例如温度（temperature）
-- stream: 如果为 false，响应将作为一个单一的响应对象返回，而不是一系列对象的流
-- keep_alive: 控制模型在请求后保持加载到内存中的时间（默认值：5 分钟）
-  
+    __NOTE__: api_key 是一个必填参数，但在实际使用过程中并不会被真正用到，这是为了兼容 OpenAI 格式。
 
-**示例：**
+    ```python
+    from openai import OpenAI
 
-```bash
-curl https://985046a9-50d0-4f5d-be1d-fbad9568xxxx.gw.neolink-ai.com/ollama-api/api/chat -d '{
-  "model": "llama3.1",
-  "messages": [
-    {
-      "role": "user",
-      "content": "what is llama"
-    }
-  ],
-  "stream": false
-}'
-```
+    client = OpenAI(
+        base_url = 'https://985046a9-50d0-4f5d-be1d-fbad9568xxxx.gw.neolink-ai.com/ollama-api/v1',
+        api_key='ollama', # required, but unused
+    )
 
-<img src={require('../../../../../static/img/tools/ollama-6.png').default} alt="ollama" style={{width: '600px', height: 'auto'}} />
+    response = client.chat.completions.create(
+    model="llama3.1",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Who won the world series in 2020?"},
+        {"role": "assistant", "content": "The LA Dodgers won in 2020."},
+        {"role": "user", "content": "Where was it played?"}
+    ]
+    )
+    print(response.choices[0].message.content)
+    ```
 
-
+     <img src={require('../../../../../static/img/tools/ollama-8.png').default} alt="ollama" style={{width: '600px', height: 'auto'}} />
