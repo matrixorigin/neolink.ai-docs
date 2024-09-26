@@ -25,7 +25,7 @@ sidebar_label: 存储管理
 
 对于超过 200 MiB 的文件，我们提供了大文件上传的解决方案。
 
-<img src={require('../../../../../static/img/getstarted/getstarted-data3.png').default} alt="普通上传" style={{width: '400px', height: 'auto'}} />
+<img src={require('../../../../../static/img/datastorage/data-2.png').default} alt="超大文件上传" style={{width: '400px', height: 'auto'}} />
 
 1. 安装 MinIO Client(mc)
 
@@ -73,11 +73,13 @@ sidebar_label: 存储管理
     示例：
 
     ```bash
-    mc config host add bucket-xxx http://file.gw.neolink-ai.com bucket-xxx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
+    mc config host add bucket-xx https://file.gw.neolink-ai.com bucket-xx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
     ```
 
+    <img src={require('../../../../../static/img/datastorage/data-1.png').default} alt="超大文件上传" style={{width: '500px', height: 'auto'}} />
+
 3. 上传
-   
+
    - 单个文件上传
 
    ```bash
@@ -87,10 +89,14 @@ sidebar_label: 存储管理
    示例：
 
    ```bash
-   mc cp <需要上传的文件路径> bucket-xxxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx
+   mc cp <需要上传的文件路径> bucket-xx/pvc-35e6fa13-802a-4e93-8e55-05b13724xxxx
    ```
 
-- 目录上传
+    <img src={require('../../../../../static/img/datastorage/data-3.png').default} alt="超大文件上传" style={{width: '700px', height: 'auto'}} />
+
+    __NOTE__:上传速度快慢跟本地网络有关系。
+
+   - 目录上传
   
     ```bash
     mc cp --recursive <需要上传的目录路径> <桶名>/<命名空间>
@@ -99,7 +105,7 @@ sidebar_label: 存储管理
     示例：
 
     ```bash
-    mc cp --recursive <需要上传的目录路径> bucket-xxxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx
+    mc cp --recursive <需要上传的目录路径> bucket-xx/pvc-35e6fa13-802a-4e93-8e55-05b13724xxxx
     ```
 
 4. 下载
@@ -113,7 +119,7 @@ sidebar_label: 存储管理
    示例：
 
    ```bash
-   mc bucket-xxxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx/<存储文件路径> <本地路径>
+   mc bucket-xx/pvc-35e6fa13-802a-4e93-8e55-05b13724xxxx/<存储文件路径> <本地路径>
    ```
 
    - 目录
@@ -125,7 +131,7 @@ sidebar_label: 存储管理
     示例：
 
     ```bash
-    mc --recursive bucket-xxxx/pvc-842c9f05-bb9c-4bdc-827a-d994ce9fxxxx/<存储目录路径> <本地路径>
+    mc --recursive bucket-xx/pvc-35e6fa13-802a-4e93-8e55-05b13724xxxx/<存储目录路径> <本地路径>
     ```
 
 
