@@ -10,15 +10,15 @@ sidebar_label: 算力API
 
 在平台右上角的下拉菜单中选择 **API 凭证**，将跳转至 API 凭证页面。
 
-<img src={require('../../../../../../static/img/apikey/token-1.png').default} alt="获取token" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../../../../static/img/apikey/token-1.png').default} alt="获取token" style={{width: '800px', height: 'auto'}} />
 
 点击**新增 Token**，输入自定义的 Token 名称，默认有效期为 3650 天，可根据需要进行调整。
 
-<img src={require('../../../../../../static/img/apikey/token-2.png').default} alt="获取token" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../../../../static/img/apikey/token-2.png').default} alt="获取token" style={{width: '800px', height: 'auto'}} />
 
 点击 **确定** 后，您将看到新生成的 Token 显示在列表中。请注意，Token 仅会生成一次，请务必及时复制并妥善保存！如果您遗失了 Token，可以选择新增 Token 或 **重新生成**。
 
-<img src={require('../../../../../../static/img/apikey/token-3.png').default} alt="获取token" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../../../../static/img/apikey/token-3.png').default} alt="获取token" style={{width: '800px', height: 'auto'}} />
 
 ## 获取 region id 和 clusterName
 
