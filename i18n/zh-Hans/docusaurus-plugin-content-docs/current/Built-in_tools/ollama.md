@@ -12,6 +12,8 @@ Ollama 是一个开源的大型语言模型服务工具，它允许用户在自�
 
 创建实例时，选择镜像名前缀为 **ollama-webui** 的镜像。实例创建完成后，在实例列表右侧的内置工具中会显示 **Ollama** 和 **WebUI** 两个工具，分别对应 Ollama 的 API 接口和 Web 用户界面。
 
+__NOTE：__ 不支持在无卡模式下使用。
+
 <img src={require('../../../../../static/img/tools/ollama-1.png').default} alt="ollama" style={{width: '500px', height: 'auto'}} />
 
 接下来将介绍如何使用 Ollama 的命令行、WebUI 界面以及 API 接口三种方式与大语言模型进行对话。
