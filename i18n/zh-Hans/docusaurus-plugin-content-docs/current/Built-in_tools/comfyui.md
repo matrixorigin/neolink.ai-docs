@@ -30,7 +30,10 @@ ComfyUI 是一个强大且灵活的图形界面工具，专为处理稳定扩散
 
 ### 2. 部署实例
 
-在点击 **立即创建** 按钮之前，请确保取消勾选**无卡模式**。完成后，系统会开始部署实例。部署过程可能需要几分钟，具体时长取决于资源的可用性。
+在点击 **立即创建** 按钮之前，请确保完成以下设置：
+1. 取消勾选无卡模式，以确保 GPU 正常使用。
+2. 不要修改数据盘的挂载路径，保持默认配置。这是为了确保 ComfyUI 的部署和运行能够顺利进行。
+完成以上步骤后，点击 **立即创建** 按钮，系统会开始部署实例。部署过程可能需要几分钟，具体时长取决于资源的可用性。
 
 **截图示例：**
 <img src={require('../../../../../static/img/comfyui/3.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
@@ -46,9 +49,6 @@ ComfyUI 是一个强大且灵活的图形界面工具，专为处理稳定扩散
 
 ComfyUI 的详细教程请参考官方文档：[ComfyUI 官方 GitHub](https://github.com/comfyanonymous/ComfyUI)。
 
-**截图示例：**
-<img src={require('../../../../../static/img/comfyui/4.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
-<img src={require('../../../../../static/img/comfyui/7.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 启动后，你可以通过 Web 界面进行模型推理和开发，所有配置和依赖已经准备完毕，ComfyUI 可立即使用。
 
@@ -61,10 +61,48 @@ ComfyUI 的详细教程请参考官方文档：[ComfyUI 官方 GitHub](https://g
 3. 上传速度可能较慢，建议耐心等待文件上传完成。
 
 **截图示例：**
-!<img src={require('../../../../../static/img/comfyui/5.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/comfyui/5.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 <img src={require('../../../../../static/img/comfyui/6.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
+### 大文件上传
+上传大文件到 Neolink.ai 的存储管理部分可以通过以下步骤完成：
+
+1. **安装 mc 客户端：**
+   需要安装 `mc` 客户端用于与 Neolink.ai 存储服务交互。
+
+2. **配置存储 alias：**
+   在安装 `mc` 客户端后，使用以下命令配置连接 Neolink.ai 的存储别名：
+   ```
+   mc config host add bucket-user-9vf4fvx0 https://file.gw.neolink-ai.com bucket-user-9vf4fvx0 Ji2CMJbB5zpvRHIeIDCK4gX3XjjiVm3Mm3YcsPls
+   ```
+
+3. **文件上传：**
+   - **单个文件上传：** 使用以下命令上传所需的文件：
+     ```
+     mc cp <需要上传的文件路径> bucket-user-9vf4fvx0/pvc-c819d373-8638-4a9d-9ac8-7d1fe884a6af
+     ```
+   - **目录上传：** 如果需要上传整个目录，使用以下命令：
+     ```
+     mc cp --recursive <需要上传的目录路径> bucket-user-9vf4fvx0/pvc-c819d373-8638-4a9d-9ac8-7d1fe884a6af
+     ```
+
+4. **文件下载：**
+   - **下载文件：** 使用以下命令下载存储中的文件：
+     ```
+     mc cp bucket-user-9vf4fvx0/pvc-c819d373-8638-4a9d-9ac8-7d1fe884a6af/<存储文件路径> <本地路径>
+     ```
+   - **下载目录：** 下载整个目录的命令为：
+     ```
+     mc cp --recursive bucket-user-9vf4fvx0/pvc-c819d373-8638-4a9d-9ac8-7d1fe884a6af/<存储目录路径> <本地路径>
+     ```
+
+这样通过配置 `mc` 客户端后，就可以进行大文件的上传和下载操作，方便快捷。
+
 上传完成后，你的 `checkpoint` 文件将会被挂载到实例的指定路径中，你可以在 ComfyUI 中加载并使用你上传的模型。
+
+**截图示例：**
+<img src={require('../../../../../static/img/comfyui/4.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/comfyui/7.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 ---
 
