@@ -25,15 +25,15 @@ ComfyUI 是一个强大且灵活的图形界面工具，专为处理稳定扩散
 6. 输入 **实例名称**，并确认其他参数配置无误。
 
 **截图示例：**
-<img src={require('../../../../../static/img/comfyui/1.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
-<img src={require('../../../../../static/img/comfyui/2.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/1.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/2.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 ### 2. 部署实例
 
 在点击 **立即创建** 按钮之前，请确保取消勾选**无卡模式**。完成后，系统会开始部署实例。部署过程可能需要几分钟，具体时长取决于资源的可用性。
 
 **截图示例：**
-<img src={require('../../../../../static/img/comfyui/3.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/3.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 ### 3. 部署完成
 
@@ -47,8 +47,8 @@ ComfyUI 是一个强大且灵活的图形界面工具，专为处理稳定扩散
 ComfyUI 的详细教程请参考官方文档：[ComfyUI 官方 GitHub](https://github.com/comfyanonymous/ComfyUI)。
 
 **截图示例：**
-<img src={require('../../../../../static/img/comfyui/4.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
-<img src={require('../../../../../static/img/comfyui/7.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/4.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/7.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 启动后，你可以通过 Web 界面进行模型推理和开发，所有配置和依赖已经准备完毕，ComfyUI 可立即使用。
 
@@ -61,8 +61,8 @@ ComfyUI 的详细教程请参考官方文档：[ComfyUI 官方 GitHub](https://g
 3. 上传速度可能较慢，建议耐心等待文件上传完成。
 
 **截图示例：**
-!<img src={require('../../../../../static/img/comfyui/5.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
-<img src={require('../../../../../static/img/comfyui/6.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+!<img src={require('../../../../../static/img/5.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/6.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 上传完成后，你的 `checkpoint` 文件将会被挂载到实例的指定路径中，你可以在 ComfyUI 中加载并使用你上传的模型。
 
