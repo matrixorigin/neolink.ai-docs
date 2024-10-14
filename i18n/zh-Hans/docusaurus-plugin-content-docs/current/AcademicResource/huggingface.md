@@ -7,14 +7,14 @@ sidebar_label: HuggingFace 镜像站
 __NOTE:__ 本加速代理服务旨在缓解学术用途中访问 Hugging Face 时遇到的网络速度问题，方便用户获取相关资源。请注意，本服务不提供稳定性保障，且在遭遇恶意攻击等情况下，可能会随时中止服务。
 
 
-**服务地址**：[https://hf-mirror.com/](https://hf-mirror.com/)
+**服务地址**：[https://hf.neolink-ai.com/](https://hf.neolink-ai.com/)
 
 以下是如何在 Hugging Face 上下载 `bert-base-uncased` 模型的示例：
 
 - 配置环境变量
   
 ```bash
-export HF_ENDPOINT=https://hf-mirror.com
+export HF_ENDPOINT=https://hf.neolink-ai.com
 ```
 
 - 安装 transformers 库
