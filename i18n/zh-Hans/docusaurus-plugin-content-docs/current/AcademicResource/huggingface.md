@@ -32,7 +32,7 @@ Hugging Face 是一家专注于人工智能和自然语言处理的公司，提�
 pip install -U huggingface_hub
 ```
 
-### 2. 设置环境变量
+#### 2. 设置环境变量
 
 Linux
 
