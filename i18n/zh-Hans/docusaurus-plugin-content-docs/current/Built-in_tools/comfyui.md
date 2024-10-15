@@ -66,7 +66,7 @@ ComfyUI 的详细教程请参考官方文档：[ComfyUI 官方 GitHub](https://g
 1. 在已部署好的实例中，找到 **内置工具** 选项，通过ssh登陆指令和密码进行登录
 <img src={require('../../../../../static/img/comfyui/8.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
-2.移动文件至目标文件夹`checkpoint`下
+2.移动文件至目标文件夹`checkpoints`下
 <img src={require('../../../../../static/img/comfyui/9.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 ### 3.使用模型
 刷新comfyui镜像即可选择`ghostmix_v20Bakedvae.safetensors`模型进行创作。
