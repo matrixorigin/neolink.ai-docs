@@ -19,8 +19,8 @@ Hugging Face 是一家专注于人工智能和自然语言处理的公司，提�
 ### 方法一：网页下载
 
 在镜像站内[https://hf.neolink-ai.com/](https://hf.neolink-ai.com/)搜索，并在模型主页的**Files and Version**中下载文件
-<img src={require('../../../../static/img/huggingface/2.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
-<img src={require('../../../../static/img/huggingface/3.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/huggingface/2.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/huggingface/3.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 ### 方法二：huggingface-cli
 
