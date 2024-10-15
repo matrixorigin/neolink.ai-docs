@@ -47,58 +47,26 @@ ComfyUI 是一个强大且灵活的图形界面工具，专为处理稳定扩散
 3. 点击 **ComfyUI**，即可打开部署好的 ComfyUI 镜像。
 4. 点击 **Queue Prompt**，即可开始进行图片生成操作。
 
-ComfyUI 的详细教程请参考官方文档：[ComfyUI 官方 GitHub](https://github.com/comfyanonymous/ComfyUI)。
-
-
-启动后，你可以通过 Web 界面进行模型推理和开发，所有配置和依赖已经准备完毕，ComfyUI 可立即使用。
-
-## 上传 Checkpoint 文件
-
-目前镜像中默认加载的模型为 `sd_xl_base_1.0_0.9vae.safetensors`。如果你需要使用其他模型，用户可以通过平台的 **存储管理** 功能上传自己的模型文件或 `checkpoint` 文件：
-
-1. 进入实例的 **存储管理** 页面。
-2. 点击 **上传文件** 按钮，选择本地的 `checkpoint` 文件或者其他模型文件（Lora,ControlNet等）上传到实例中。
-3. 上传速度可能较慢，建议耐心等待文件上传完成。
-
 **截图示例：**
 <img src={require('../../../../../static/img/comfyui/5.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 <img src={require('../../../../../static/img/comfyui/6.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
-### 大文件上传
-上传大文件到 Neolink.ai 的存储管理部分可以通过以下步骤完成：
+ComfyUI 的详细教程请参考官方文档：[ComfyUI 官方 GitHub](https://github.com/comfyanonymous/ComfyUI)。
+启动后，你可以通过 Web 界面进行模型推理和开发，所有配置和依赖已经准备完毕，ComfyUI 可立即使用。
 
-1. **安装 mc 客户端：**
-   需要安装 `mc` 客户端用于与 Neolink.ai 存储服务交互。
+## 上传 Checkpoint 文件
 
-2. **配置存储 alias：**
-   在安装 `mc` 客户端后，使用以下命令配置连接 Neolink.ai 的存储别名：
-   ```
-   mc config host add bucket-user-9vf4fvx0 https://file.gw.neolink-ai.com bucket-user-9vf4fvx0 Ji2CMJbB5zpvRHIeIDCK4gX3XjjiVm3Mm3YcsPls
-   ```
+这里我们以`ghostmix_v20Bakedvae.safetensors`模型为例，详细讲解如何上传`checkpoint`文件。更多关于文件上传的详细教程，请参考官方文档：[数据存储->存储管理->大文件上传](https://neolink-ai.com/docs/DataStorage/createstorage)。
 
-3. **文件上传：**
-   - **单个文件上传：** 使用以下命令上传所需的文件：
-     ```
-     mc cp <需要上传的文件路径> bucket-user-9vf4fvx0/pvc-c819d373-8638-4a9d-9ac8-7d1fe884a6af
-     ```
-   - **目录上传：** 如果需要上传整个目录，使用以下命令：
-     ```
-     mc cp --recursive <需要上传的目录路径> bucket-user-9vf4fvx0/pvc-c819d373-8638-4a9d-9ac8-7d1fe884a6af
-     ```
+### 1.上传模型
 
-4. **文件下载：**
-   - **下载文件：** 使用以下命令下载存储中的文件：
-     ```
-     mc cp bucket-user-9vf4fvx0/pvc-c819d373-8638-4a9d-9ac8-7d1fe884a6af/<存储文件路径> <本地路径>
-     ```
-   - **下载目录：** 下载整个目录的命令为：
-     ```
-     mc cp --recursive bucket-user-9vf4fvx0/pvc-c819d373-8638-4a9d-9ac8-7d1fe884a6af/<存储目录路径> <本地路径>
-     ```
+### 2.移动至目标文件夹
 
-这样通过配置 `mc` 客户端后，就可以进行大文件的上传和下载操作，方便快捷。
+### 3.使用模型
 
-上传完成后，你的 `checkpoint` 文件将会被挂载到实例的指定路径中，你可以在 ComfyUI 中加载并使用你上传的模型。
+
+
+
 
 **截图示例：**
 <img src={require('../../../../../static/img/comfyui/4.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
