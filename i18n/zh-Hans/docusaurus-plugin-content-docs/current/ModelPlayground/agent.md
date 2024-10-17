@@ -4,13 +4,18 @@ title: Agent应用
 sidebar_label: Agent应用
 ---
 
-用户可以使用 Agent 工具构建基于 Chat 对话模式的 Agent 应用，该应用支持访问知识库，提供对话的上下文信息。用户可通过公开访问入口或API 集成两种方式进行接入。
+用户可以使用 Agent 工具构建基于 Chat 对话模式的 Agent 应用，该应用支持访问知识库，提供对话的上下文信息。用户可通过公开访问入口或 API 集成两种方式进行接入。
+
+<video controls width="640">
+  <source src="https://community-shared-data-1308875761.cos.ap-beijing.myqcloud.com/artwork/neolinkdocs/video/agent.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 创建 Agent
 
 在平台左侧模型服务处找到** Agent 应用**，在右侧点击**创建 Agent**。
 
-<img src={require('../../../../../static/img/knowledge/agent-1.png').default} alt="创建agent" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../../../../static/img/knowledge/agent-1.png').default} alt="创建 agent" style={{width: '600px', height: 'auto'}} />
 
 ## 发布 Agent
 
@@ -22,11 +27,11 @@ sidebar_label: Agent应用
 
 设置完毕后后，可以在右侧的 **调试与预览** 界面进行测试，以验证 Agent 的实际表现并进行调整。
 
-<img src={require('../../../../../static/img/knowledge/agent-2.png').default} alt="创建agent" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../../../../static/img/knowledge/agent-2.png').default} alt="创建 agent" style={{width: '600px', height: 'auto'}} />
 
 调试完毕，点击右上角**发布**按钮即可进行发布。回到 Agent 列表，可以看到 Agent 状态为**已发布**。
 
-<img src={require('../../../../../static/img/knowledge/agent-3.png').default} alt="创建agent" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../../../../static/img/knowledge/agent-3.png').default} alt="创建 agent" style={{width: '600px', height: 'auto'}} />
 
 您可以随时对 Agent 进行修改和更新。
 
@@ -34,8 +39,8 @@ sidebar_label: Agent应用
 
 在**访问与统计**页面，我们统计了 Agent 应用的消息数量和 token 调用量，统计包含了调试预览阶段的数据。
 
-<img src={require('../../../../../static/img/knowledge/agent-4.png').default} alt="创建agent" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../../../../static/img/knowledge/agent-4.png').default} alt="创建 agent" style={{width: '800px', height: 'auto'}} />
 
 复制访问 URL 并在浏览器中打开，即可直接运行 Agent。该 URL 地址支持分享，外部用户无需登录账户即可访问和使用该 Agent。
 
-<img src={require('../../../../../static/img/knowledge/agent-5.png').default} alt="创建agent" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../../../../static/img/knowledge/agent-5.png').default} alt="创建 agent" style={{width: '600px', height: 'auto'}} />
