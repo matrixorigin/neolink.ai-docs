@@ -6,10 +6,10 @@ sidebar_label: Agent应用
 
 用户可以使用 Agent 工具构建基于 Chat 对话模式的 Agent 应用，该应用支持访问知识库，提供对话的上下文信息。用户可通过公开访问入口或 API 集成两种方式进行接入。
 
-<video controls width="640">
-  <source src="https://community-shared-data-1308875761.cos.ap-beijing.myqcloud.com/artwork/neolinkdocs/video/agent.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="640" height="360" 
+  src="https://community-shared-data-1308875761.cos.ap-beijing.myqcloud.com/artwork/neolinkdocs/video/agent.mov" 
+  frameborder="0" allowfullscreen>
+</iframe>
 
 ## 创建 Agent
 
