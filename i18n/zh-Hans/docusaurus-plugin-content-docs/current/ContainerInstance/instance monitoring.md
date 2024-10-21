@@ -18,10 +18,18 @@ sidebar_label: 实例详情
 
 <img src={require('../../../../../static/img/monitoring/monitoring-2.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
 
+### 路由配置
+
+在路由配置页面，您可以对实例增加自定义外部服务配置，允许将容器内服务对外暴露。
+
+<img src={require('../../../../../static/img/monitoring/monitoring-8.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../../../../static/img/monitoring/monitoring-9.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
 
 ### 监控
 
-在实例监控页面，您可以查看当前实例的各项指标信息，包括数据盘使用率、GPU和CPU利用率、GPU显存占用情况、内存使用情况、功耗以及温度等参数。
+点击算力实例，在实例监控页面，您可以查看当前实例的各项指标信息，包括数据盘使用率、GPU 和 CPU 利用率、GPU 显存占用情况、内存使用情况、功耗以及温度等参数。
+
+<img src={require('../../../../../static/img/monitoring/monitoring-7.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
 
 <img src={require('../../../../../static/img/monitoring/monitoring-6.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
 
