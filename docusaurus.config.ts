@@ -86,7 +86,6 @@ const config: Config = {
   themeConfig:
     {
       navbar: {
-        title: 'neolink.ai',
         logo: {
           alt: 'Neolink Logo',
           src: 'img/neolink.svg',
