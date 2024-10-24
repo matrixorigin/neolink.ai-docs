@@ -5,14 +5,14 @@ sidebar_position: 1
 title: 简介
 sidebar_label: 简介
 ---
+
 ## Neolink.AI
 
-Neolink.AI是一款全面链接算力、数据、知识、模型与企业应用的平台，为新一代 AI-Native 应用提供高性价比的 GPU 算力资源 和一站式数据& AI 平台产品服务。
-
+Neolink.AI 是一款全面链接算力、数据、知识、模型与企业应用的平台，为新一代 AI-Native 应用提供高性价比的 GPU 算力资源 和一站式数据& AI 平台产品服务。
 
 ### 使用场景
 
-> **警告**: 严禁使用WebUI等算法生成违禁图片、严禁挖矿，一经发现立即封号！
+> **警告**: 严禁使用 WebUI 等算法生成违禁图片、严禁挖矿，一经发现立即封号！
 
 - **快速模型训练** ：提供高效的计算资源，显著缩短机器学习模型的训练时间。
 - **大规模数据处理**：利用分布式计算能力，高效处理和分析海量数据。
@@ -21,20 +21,23 @@ Neolink.AI是一款全面链接算力、数据、知识、模型与企业应用�
 - **模型优化**：利用强大的计算资源，加速人工智能模型的优化和调优过程。
 
 ### 文档推荐
+
 您可以参考接下来的文档，体验 Neolink.AI 的各项功能。
 
-**必看文档**：
-- [快速开始](/category/快速开始)
-- [充值计费](/category/充值计费)
+## 必读文档
 
-**常用文档**：
-- [如何选择GPU](/category/如何选择gpu)
-- [创建算力实例](/ContainerInstance/create%20instance)
-- [SSH连接](/ContainerInstance/ssh)
-- [数据存储](/category/数据存储)
-- [配置环境](/category/配置环境)
-- [模型广场](/category/模型广场)
-- [API文档](/category/api文档)
+- [快速开始](/QuickStart/instance%20getstarted)
+- [充值与计费](/RechargeBilling)
+
+## 常用文档
+
+- [如何选择 GPU](/HowtoChooseGPU/gpuselection)
+- [创建计算实例](/ContainerInstance/create%20instance)
+- [SSH 连接](/ContainerInstance/ssh)
+- [数据存储](/DataStorage/overview)
+- [配置环境](/ConfigureEnvironment/overview)
+- [模型广场](/ModelPlayground/model%20introduction)
+- [API 文档](/APIDocs/model-api/overview)
 
 ### 联系我们
 
