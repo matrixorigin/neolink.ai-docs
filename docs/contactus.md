@@ -1,7 +1,9 @@
 ---
-sidebar_position: 15
-title: 联系我们
-sidebar_label: 联系我们
+sidebar_position: 16
+title: Contact Us
+sidebar_label: Contact Us
 ---
 
-快速了解 neolink.ai 算力管理平台的基础概念和操作方法。
+You can reach out to us by contacting our support assistant for technical inquiries, business cooperation, or to provide feedback. Our customer service team will address your requests promptly and ensure you receive satisfactory assistance. Thank you for your understanding and support!
+
+<img src={require('../static/img/contactus.png').default} alt="Contact Us" style={{width: '400px', height: 'auto'}} />

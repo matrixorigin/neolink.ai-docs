@@ -33,11 +33,14 @@ const config: Config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'zh-Hans', // 默认语言为简体中文
+    locales: ['zh-Hans', 'en'], // 增加英文版
     localeConfigs: {
       'zh-Hans': {
         label: '简体中文',
+      },
+      en: {
+        label: 'English', // 英文版本标签
       },
     },
   },
@@ -69,11 +72,8 @@ const config: Config = {
       'classic',
       ({
         docs: {
-          routeBasePath: '/', // Serve the docs at the site's root
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'), // 配置侧边栏
         },
         blog: false,
         theme: {

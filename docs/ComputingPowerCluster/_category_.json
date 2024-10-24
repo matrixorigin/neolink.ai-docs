@@ -1,5 +1,5 @@
 {
-  "label": "算力集群",
+  "label": "ComputingPowerCluster",
   "position": 10,
   "link": {
     "type": "generated-index",
