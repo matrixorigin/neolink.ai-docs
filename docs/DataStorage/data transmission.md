@@ -4,14 +4,6 @@ title: data transmission
 sidebar_label: data transmission
 ---
 
----
-
-sidebar_position: 4
-title: Data Transfer
-sidebar_label: Data Transfer
-
----
-
 You can transfer data between your local machine and compute instances using the following methods:
 
 1. [JupyterLab](../Built-in_tools/jupyterlab.md): Currently, JupyterLab does not support bulk uploads or downloads of files or folders.
