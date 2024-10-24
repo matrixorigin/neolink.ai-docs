@@ -105,4 +105,4 @@ huggingface-cli download --token hf_*** --resume-download meta-llama/Llama-2-7b-
 hfd meta-llama/Llama-2-7b --hf_username YOUR_HF_USERNAME --hf_token hf_***
 ```
 
-## For other use cases such as `from_pretrained`、`wget`、`curl` where token authentication is needed, refer to the tutorials mentioned in the first section.
+### For other use cases such as `from_pretrained`、`wget`、`curl` where token authentication is needed, refer to the tutorials mentioned in the first section.
