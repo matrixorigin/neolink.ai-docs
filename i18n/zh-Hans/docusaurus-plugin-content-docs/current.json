@@ -123,6 +123,10 @@
     "message": "算力实例",
     "description": "The label for category Container Instance in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Built-in_tools": {
+    "message": "内置工具",
+    "description": "The label for category Built-in_tools in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.RechargeBilling": {
     "message": "充值计费",
     "description": "The label for category Recharge Billing in sidebar tutorialSidebar"
@@ -210,6 +214,14 @@
   "sidebar.tutorialSidebar.category.算力实例.link.generated-index.description": {
     "message": " ",
     "description": "The generated-index page description for category 算力实例 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.内置工具": {
+    "message": "内置工具",
+    "description": "The label for category 内置工具 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.内置工具.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 内置工具 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.数据存储": {
     "message": "数据存储",
