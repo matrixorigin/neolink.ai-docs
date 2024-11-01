@@ -22,3 +22,9 @@ Experiment is an online interactive platform where users can input data and obse
 
 • Max_tokens limits the maximum number of tokens in the output. The default value is 200, with a maximum of 4096.
 <img src={require('../../static/img/experience/3.png').default} alt="体验中心" style={{width: '1000px', height: 'auto'}} />
+
+Note:
+
+1. Usage in the Experience Center does not count toward the API call limit on the user’s account.
+
+2. Streaming output is enabled by default, with context memory for up to 10 turns.

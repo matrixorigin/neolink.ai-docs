@@ -23,3 +23,9 @@ sidebar_label: 体验中心
 • Max_tokens 则限制输出文本的最大 tokens 数量，默认值为 200，最大值为 4096。
 
 <img src={require('../../../../../static/img/experience/3.png').default} alt="体验中心" style={{width: '1000px', height: 'auto'}} />
+
+注：
+
+1.体验中心的用量不计入用户账户的 API 调用量
+
+2.默认为流式输出，上下文记忆 10 轮
