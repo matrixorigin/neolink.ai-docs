@@ -10,6 +10,12 @@ Storage management provides network-shared storage that can be mounted to differ
 
 Navigate to the **Compute Instances** page, click on a specific instance, and under **Storage**, you can add storage and specify the path where the storage will be mounted in the instance. Once confirmed, the storage will be accessible through the specified mount path within the instance.
 
+## Shared Storage
+
+Go to the **Compute Instance** page, click **Create Instance**, select the existing storage for the data disk, and choose the default mount path /root/data. This will allow you to use the data disk of the target storage.
+
+<img src={require('../../static/img/datastorage/share.png').default} alt="Upload Data" style={{width: '1000px', height: 'auto'}} />
+
 ## Upload Files
 
 In the left sidebar, select **Storage Management** to open the storage management page. Click **Upload Files** to upload the required code or data. It is recommended to place the data disk under the `/root/data` path within the instance.
