@@ -8,7 +8,7 @@ sidebar_label: Build Your Personalized ChatGPT Service
 
 In the field of artificial intelligence, personalized chatbots are rapidly emerging as a new trend favored by tech enthusiasts. These chatbots go beyond simple Q&A interactions, leveraging deep learning to understand user behavior and preferences, offering more precise and personalized services to meet diverse user needs.
 
-On **neolink.ai**, you can deploy your private ChatGPT web application with just one click, seamlessly connecting with intelligent services. Whether using **Meta-Llama-3-8B**, **Meta-Llama-3.1-405B**, **Qwen2-7B-Instruct**, or **GLM-4-9B-Chat**, these advanced AI models deliver efficient and customized conversational experiences. With the support of these powerful models, your personalized chatbot becomes more intuitive, providing smarter, more thoughtful assistance in both work and everyday life.
+On **neolink.ai**, you can deploy your private ChatGPT web application with just one click, seamlessly connecting with intelligent services. Whether using **Meta-Llama-3-8B**, **Qwen2-7B-Instruct**, or **GLM-4-9B-Chat**, these advanced AI models deliver efficient and customized conversational experiences. With the support of these powerful models, your personalized chatbot becomes more intuitive, providing smarter, more thoughtful assistance in both work and everyday life.
 
 ## Instructions:
 

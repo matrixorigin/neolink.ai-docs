@@ -64,7 +64,6 @@ The platform supports the following two billing methods:
 | -------- | --------------------- | --------------------------- |
 | Meta     | Meta-Llama-3-70B      | Coming Soon                 |
 | Meta     | Meta-Llama-3-8B       | **Free for a limited time** |
-| Meta     | Meta-Llama-3-405B     | **Free for a limited time** |
 | Mixtral  | Mixtral-8x7B          | Coming Soon                 |
 | Baichuan | Baichuan-13B-Chat     | Coming Soon                 |
 | Qwen     | Qwen2-72B-Instruct    | Coming Soon                 |
