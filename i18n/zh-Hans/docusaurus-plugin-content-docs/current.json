@@ -148,7 +148,7 @@
     "description": "The label for category API Management in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.APIDocs": {
-    "message": "模型API文档",
+    "message": "API说明",
     "description": "The label for category API Docs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ConfigureEnvironment": {
