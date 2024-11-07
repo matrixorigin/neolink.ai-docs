@@ -8,10 +8,10 @@ The Model Hub hosts various types of intelligent models, which you can access an
 
 ## Steps
 
-1. Go to **Model Hub** in the left sidebar.  
+1. Go to **Model Service** in the left sidebar.  
    <img src={require('../../static/en-img/getstarted/modelservice.png').default} alt="Model Hub" style={{width: '150px', height: 'auto'}} />
 
-2. On the **Model Hub** page, you can view the available models. Use **Type**, **Vendor**, **Context Length**, and **Model Parameters** filters to narrow down the models. You can select multiple filters simultaneously to find matching results. Additionally, you can search for models by name using the search bar at the top of the page.  
+2. On the **Model Service** page, you can view the available models. Use **Type**, **Vendor**, **Context Length**, and **Model Parameters** filters to narrow down the models. You can select multiple filters simultaneously to find matching results. Additionally, you can search for models by name using the search bar at the top of the page.  
    <img src={require('../../static/en-img/getstarted/modelservice2.png').default} alt="Model Hub" style={{width: '1000px', height: 'auto'}} />
 
 3. Click on a specific model to enter its details page. Under **Step 1: Get API KEY**, click **Create** to generate an API Key.  

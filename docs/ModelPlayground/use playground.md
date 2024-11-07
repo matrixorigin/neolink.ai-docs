@@ -8,10 +8,10 @@ The Model Hub hosts various types of large models, including text generation and
 
 ## Steps
 
-1. Go to **Model Hub** in the left sidebar.  
+1. Go to **Model Service** in the left sidebar.  
    <img src={require('../../static/img/getstarted/modelservice.png').default} alt="Model Hub" style={{width: '150px', height: 'auto'}} />
 
-2. On the **Model Hub** page, you can see the available models. Use **Type**, **Vendor**, **Context Length**, and **Model Parameters** to filter the models. You can select multiple filters to narrow down the results. Additionally, you can search for models by name using the search bar at the top of the page.  
+2. On the **Model Service** page, you can see the available models. Use **Type**, **Vendor**, **Context Length**, and **Model Parameters** to filter the models. You can select multiple filters to narrow down the results. Additionally, you can search for models by name using the search bar at the top of the page.  
    <img src={require('../../static/img/getstarted/modelservice2.png').default} alt="Model Hub" style={{width: '1000px', height: 'auto'}} />
 
 3. Click on a specific model to view its details. In the details page, go to **Step 1. Get API KEY** and click **Create** to create an API KEY.  

@@ -4,7 +4,7 @@ title: Instance Details
 sidebar_label: Instance Details
 ---
 
-In the Compute Instances page, click the instance you want to explore to access the instance details. In addition to viewing information, you can perform various operations on the instance.
+In the GPU Instances page, click the instance you want to explore to access the instance details. In addition to viewing information, you can perform various operations on the instance.
 
 <img src={require('../../static/en-img/monitoring/monitoring-1.png').default} alt="Details" style={{width: '1000px', height: 'auto'}} />
 

@@ -6,7 +6,7 @@ sidebar_label: Images
 
 ## Official Images
 
-Neolink.AI provides a variety of official images. In the sidebar, select **Image Management** to view a list of official images. Choose the appropriate official image and click **Deploy**.
+Neolink.AI provides a variety of official images. In the sidebar, select **Image Registry** to view a list of official images. Choose the appropriate official image and click **Deploy**.
 
 <img src={require('../../static/en-img/imgmanagement/imagemanagement-1.png').default} alt="Upload Data" style={{width: '700px', height: 'auto'}} />
 
@@ -26,13 +26,13 @@ In the compute instance list, select **Save Image** on the right side of the ins
 
 <img src={require('../../static/en-img/imgmanagement/imagemanagement-3.png').default} alt="Save Image" style={{width: '800px', height: 'auto'}} />
 
-In the pop-up window for saving the image, you can customize the image name and version. After saving, you can view the image details under **Image Management > Private Images**.
+In the pop-up window for saving the image, you can customize the image name and version. After saving, you can view the image details under **Image Registry > Private Images**.
 
 <img src={require('../../static/en-img/imgmanagement/imagemanagement-4.png').default} alt="Save Image" style={{width: '800px', height: 'auto'}} />
 
 ### Image Management
 
-In the **Image Management > Private Images** page, you can see the saved private images. Here, you can click the **Deploy** button to go to the instance creation page and deploy a private image, or delete a private image.
+In the **Image Registry > Private Images** page, you can see the saved private images. Here, you can click the **Deploy** button to go to the instance creation page and deploy a private image, or delete a private image.
 
 **NOTE**: Deleting an image may affect the normal restart of instances. Please proceed with caution.
 

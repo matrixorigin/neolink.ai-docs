@@ -14,6 +14,6 @@ When creating an instance, the system will automatically provide a 50GB data dis
 
 - **After Instance Creation**
 
-  In the **Storage Management** section of the console, click the **Expand** button next to the instance. In the pop-up window, enter the target capacity size.
+  In the **Storage** section of the console, click the **Expand** button next to the instance. In the pop-up window, enter the target capacity size.
 
   ![](../../static/en-img/datastorage/data-expansion2.png)

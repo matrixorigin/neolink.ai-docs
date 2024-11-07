@@ -16,7 +16,7 @@ This guide will walk you through deploying the official ComfyUI image on the `ne
 
 First, log in to the `neolink.ai` platform and follow these steps:
 
-1. In the main interface, navigate to **GPU Instance** and click **Create Instance**.
+1. In the main interface, navigate to **GPU Instance** and click **Create**.
 2. **Single GPU mode is recommended**, as multi-GPU mode currently does not support ComfyUI deployment.
 3. **GPU recommendation: 4090**, which offers the best price-performance ratio and compatibility. 3090 and H100 are also supported, but H20 is not yet available.
 4. **Do not modify the data disk configuration**, and keep the default mount path.
@@ -30,7 +30,7 @@ First, log in to the `neolink.ai` platform and follow these steps:
 
 ### 2. Deploy the Instance
 
-Before clicking the **Create Now** button, ensure the following settings are completed:
+Before clicking the **Create** button, ensure the following settings are completed:
 
 1. Uncheck the no-GPU mode to ensure the GPU is properly utilized.
 2. Do not modify the data disk mount path to ensure the smooth deployment and operation of ComfyUI.
