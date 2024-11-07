@@ -24,26 +24,26 @@ All Neolink images currently come with JupyterLab as a built-in tool, helping us
 
 ## Steps to Use
 
-Access the **Compute Instances** from the left sidebar, and under the built-in tools of the specific instance, click **JupyterLab** to enter the JupyterLab interface.
+Access the **GPU Instances** from the left sidebar, and under the built-in tools of the specific instance, click **JupyterLab** to enter the JupyterLab interface.
 
-<img src={require('../../static/img/qa/ssh-interrupt-1.png').default} alt="" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/qa/ssh-interrupt-1.png').default} alt="" style={{width: '600px', height: 'auto'}} />
 
-<img src={require('../../static/img/jupyterlab/jupyterlab-2.png').default} alt="JupyterLab Interface" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/jupyterlab/jupyterlab-2.png').default} alt="JupyterLab Interface" style={{width: '600px', height: 'auto'}} />
 
 ## Basic Features
 
 The JupyterLab interface mainly consists of two parts: the File Browser and the Workspace.
 
-<img src={require('../../static/img/jupyterlab/jupyterlab-3.png').default} alt="JupyterLab Interface" style={{width: '500px', height: 'auto'}} />
+<img src={require('../../static/en-img/jupyterlab/jupyterlab-3.png').default} alt="JupyterLab Interface" style={{width: '500px', height: 'auto'}} />
 
 In the File Browser, double-click the folder name to navigate into directories. Click the file upload icon to select files for upload.
 
-<img src={require('../../static/img/jupyterlab/jupyterlab-4.png').default} alt="JupyterLab Interface" style={{width: '200px', height: 'auto'}} />
+<img src={require('../../static/en-img/jupyterlab/jupyterlab-4.png').default} alt="JupyterLab Interface" style={{width: '200px', height: 'auto'}} />
 
 Right-click on a specific folder or file in the File Browser to manage files.
 
-<img src={require('../../static/img/jupyterlab/jupyterlab-5.png').default} alt="JupyterLab Interface" style={{width: '300px', height: 'auto'}} />
+<img src={require('../../static/en-img/jupyterlab/jupyterlab-5.png').default} alt="JupyterLab Interface" style={{width: '300px', height: 'auto'}} />
 
 In the Workspace, click **Other > Terminal** to open a new terminal. JupyterLab does not terminate processes by default, even after closing terminal or notebook tabs.
 
-<img src={require('../../static/img/jupyterlab/jupyterlab-6.png').default} alt="JupyterLab Interface" style={{width: '500px', height: 'auto'}} />
+<img src={require('../../static/en-img/jupyterlab/jupyterlab-6.png').default} alt="JupyterLab Interface" style={{width: '500px', height: 'auto'}} />

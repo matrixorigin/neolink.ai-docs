@@ -14,7 +14,7 @@ When creating an instance, select an image with the **ollama-webui** prefix. Onc
 
 **NOTE:** Not supported in no-GPU mode.
 
-<img src={require('../../static/img/tools/ollama-1.png').default} alt="ollama" style={{width: '500px', height: 'auto'}} />
+<img src={require('../../static/en-img/ollama/ollama-1.png').default} alt="ollama" style={{width: '500px', height: 'auto'}} />
 
 Next, we will introduce how to interact with large language models using three methods: the command line, the WebUI interface, and the API.
 
@@ -28,7 +28,7 @@ The `ollama run` command is used to start and run a specified language model, en
 ollama run <model_name>
 ```
 
-<img src={require('../../static/img/tools/ollama-7.png').default} alt="ollama" style={{width: '500px', height: 'auto'}} />
+<img src={require('../../static/en-img/ollama/ollama-7.png').default} alt="ollama" style={{width: '500px', height: 'auto'}} />
 
 For more information on how to use Ollama commands, refer to the official Ollama [documentation](https://github.com/ollama/ollama/blob/main/README.md#quickstart).
 
@@ -38,15 +38,15 @@ Ollama WebUI is a web-based user interface that allows users to interact with mo
 
 Click on **Ollama** under the built-in tools to access the WebUI login page. On your first visit, registration will be required.
 
-<img src={require('../../static/img/tools/ollama-3.png').default} alt="ollama" style={{width: '300px', height: 'auto'}} />
+<img src={require('../../static/en-img/ollama/ollama-3.png').default} alt="ollama" style={{width: '300px', height: 'auto'}} />
 
 After successfully logging in, you will enter the WebUI interface. However, you cannot initiate a conversation just yet because no large language model has been deployed. Click on the **Select a Model** dropdown menu in the upper left corner, enter the desired model name in the text box, such as `llama3.1`, and click **Pull 'llama3.1' from Ollama.com**. The system will automatically begin downloading the model and display the download progress.
 
-<img src={require('../../static/img/tools/ollama-4.png').default} alt="ollama" style={{width: '500px', height: 'auto'}} />
+<img src={require('../../static/en-img/ollama/ollama-4.png').default} alt="ollama" style={{width: '500px', height: 'auto'}} />
 
 Once the model is downloaded, you can start a conversation.
 
-<img src={require('../../static/img/tools/ollama-5.png').default} alt="ollama" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/ollama/ollama-5.png').default} alt="ollama" style={{width: '600px', height: 'auto'}} />
 
 ### Ollama API
 
@@ -54,7 +54,7 @@ The Ollama API provides a simple way for developers to interact with Ollama mode
 
 Click on **Ollama** under the built-in tools to access the API page.
 
-<img src={require('../../static/img/tools/ollama-2.png').default} alt="ollama" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/ollama/ollama-2.png').default} alt="ollama" style={{width: '600px', height: 'auto'}} />
 
 The address shown in the browser's address bar is the Ollama API endpoint. Below, we will introduce how to use the API to perform Q&A tasks. For more information on the Ollama API, refer to the official [API documentation](https://github.com/ollama/ollama/blob/main/docs/api.md).
 
@@ -79,7 +79,7 @@ The address shown in the browser's address bar is the Ollama API endpoint. Below
       }'
   ```
 
-  <img src={require('../../static/img/tools/ollama-6.png').default} alt="ollama" style={{width: '800px', height: 'auto'}} />
+  <img src={require('../../static/en-img/ollama/ollama-6.png').default} alt="ollama" style={{width: '800px', height: 'auto'}} />
 
 - Open Python library
 
@@ -105,4 +105,4 @@ The address shown in the browser's address bar is the Ollama API endpoint. Below
   print(response.choices[0].message.content)
   ```
 
-  <img src={require('../../static/img/tools/ollama-8.png').default} alt="ollama" style={{width: '600px', height: 'auto'}} />
+  <img src={require('../../static/en-img/ollama/ollama-8.png').default} alt="ollama" style={{width: '600px', height: 'auto'}} />
