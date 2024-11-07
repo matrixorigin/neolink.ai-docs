@@ -19,12 +19,12 @@ You can transfer data between your local machine and compute instances using the
 ### Upload
 
 Follow the steps shown in the image to upload a file.  
-<img src={require('../../static/img/jupyterlab/jupyterlab-4.png').default} alt="JupyterLab Interface" style={{width: '300px', height: 'auto'}} />
+<img src={require('../../static/en-img/jupyterlab/jupyterlab-4.png').default} alt="JupyterLab Interface" style={{width: '300px', height: 'auto'}} />
 
 ### Download
 
 Follow the steps shown in the image to download a file. Select the file, then right-click.  
-<img src={require('../../static/img/jupyterlab/jupyterlab-5.png').default} alt="JupyterLab Interface" style={{width: '500px', height: 'auto'}} />
+<img src={require('../../static/en-img/jupyterlab/jupyterlab-5.png').default} alt="JupyterLab Interface" style={{width: '500px', height: 'auto'}} />
 
 **Note:** JupyterLab does not support folder downloads. You can use command-line tools to compress the folder into a zip file. Here is an example of a commonly used compression command, assuming you want to compress the folder `my_folder` into `my_folder.zip`:
 
