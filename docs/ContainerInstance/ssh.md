@@ -8,9 +8,9 @@ SSH (Secure Shell) is a network protocol used to securely access remote computer
 
 ## SSH Login
 
-After the instance is successfully created and its status shows **Running**, copy the **Login Command**.
+After the instance is successfully created and its status shows **Running**, copy the **Login Command ssh**.
 
-![SSH Access to Compute Instance](../../static/img/ssh/ssh-1.png)
+![SSH Access to Compute Instance](../../static/en-img/ssh/ssh-1.png)
 
 Enter the command in your local terminal, and use the copied SSH password to log in and access the compute instance.
 
@@ -192,12 +192,12 @@ Follow these steps to generate an SSH key and add it to the SSH agent on Linux:
 
 ### Set Up Key-Based Login
 
-In the instance list, click **Set Passwordless Login** to access the SSH public key configuration page.
+In the instance list, click **Set up passwordless login** to access the SSH public key configuration page.
 
-![Set Up Key-Based Login](../../static/img/ssh/ssh-4.png)
+![Set Up Key-Based Login](../../static/en-img/ssh/ssh-4.png)
 
-On the SSH public key configuration page, click **Add SSH Key**. In the pop-up window, enter the key name and public key, then click **Confirm**. Once added, the public key will only apply to newly created instances. For running instances, you need to shut them down first before enabling passwordless login.
+On the SSH public key configuration page, click **Add SSH Key**. In the pop-up window, enter the key name and public key, then click **OK**. Once added, the public key will only apply to newly created instances. For running instances, you need to shut them down first before enabling passwordless login.
 
-![Add Public Key](../../static/img/ssh/ssh-3.png)
+![Add Public Key](../../static/en-img/ssh/ssh-3.png)
 
 Now, you can use the provided login command to log in without a password.

@@ -264,7 +264,7 @@
     "description": "The generated-index page description for category 模型广场 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.API文档": {
-    "message": "API文档",
+    "message": "API说明",
     "description": "The label for category API文档 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.API文档.link.generated-index.description": {

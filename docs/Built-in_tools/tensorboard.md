@@ -10,7 +10,7 @@ Before introducing TensorBoard, let’s first understand TensorFlow.
 
 TensorFlow is an open-source machine learning framework developed and maintained by Google. It provides a rich set of tools and libraries for building, training, and deploying various machine learning models, especially deep learning models. TensorFlow is widely used in fields such as image recognition, natural language processing, speech recognition, and recommendation systems. For example, in image recognition tasks, models can be trained to identify different objects, while in natural language processing, TensorFlow can be applied to text classification and machine translation. TensorBoard is the official visualization tool for TensorFlow. Neolink.AI has integrated this tool to help users better understand and analyze their model training processes.
 
-<img src={require('../../static/img/tensorboard/tensorboard-1.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../static/en-img/tensorboard/tensorboard-1.png').default} alt="tensorboard" style={{width: '1000px', height: 'auto'}} />
 
 ## Application Scenarios
 
