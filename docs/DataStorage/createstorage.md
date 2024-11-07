@@ -12,27 +12,27 @@ Navigate to the **Compute Instances** page, click on a specific instance, and un
 
 ## Shared Storage
 
-Go to the **Compute Instance** page, click **Create Instance**, select the existing storage for the data disk, and choose the default mount path /root/data. This will allow you to use the data disk of the target storage.
+Go to the **GPU Instance** page, click **Create Instance**, select the existing storage for the data disk, and choose the default mount path /root/data. This will allow you to use the data disk of the target storage.
 
-<img src={require('../../static/img/datastorage/share.png').default} alt="Upload Data" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../static/en-img/datastorage/share.png').default} alt="Upload Data" style={{width: '1000px', height: 'auto'}} />
 
 ## Upload Files
 
-In the left sidebar, select **Storage Management** to open the storage management page. Click **Upload Files** to upload the required code or data. It is recommended to place the data disk under the `/root/data` path within the instance.
+In the left sidebar, select **Storage** to open the storage management page. Click **Upload** to upload the required code or data. It is recommended to place the data disk under the `/root/data` path within the instance.
 
-<img src={require('../../static/img/getstarted/getstarted-data1.png').default} alt="Upload Data" style={{width: '1000px', height: 'auto'}} />
+<img src={require('../../static/en-img/getstarted/getstarted-data1.png').default} alt="Upload Data" style={{width: '1000px', height: 'auto'}} />
 
 ### Standard Upload
 
 For files smaller than 200 MiB, you can upload them by dragging and dropping or clicking to upload. Only one file can be uploaded at a time.
 
-<img src={require('../../static/img/getstarted/getstarted-data2.png').default} alt="Standard Upload" style={{width: '400px', height: 'auto'}} />
+<img src={require('../../static/en-img/getstarted/getstarted-data2.png').default} alt="Standard Upload" style={{width: '400px', height: 'auto'}} />
 
 ### Large File Upload
 
 For files larger than 200 MiB, we provide a solution for large file uploads.
 
-<img src={require('../../static/img/datastorage/data-2.png').default} alt="Large File Upload" style={{width: '400px', height: 'auto'}} />
+<img src={require('../../static/en-img/datastorage/data-2.png').default} alt="Large File Upload" style={{width: '400px', height: 'auto'}} />
 
 1. Install MinIO Client (mc)
 
@@ -84,7 +84,7 @@ For files larger than 200 MiB, we provide a solution for large file uploads.
    mc config host add bucket-xx https://file.gw.neolink-ai.com bucket-xx sCKPcR5HNve86pqUC7k133LD25BgSE2dAZ5zxxxx
    ```
 
-   <img src={require('../../static/img/datastorage/data-1.png').default} alt="Large File Upload" style={{width: '500px', height: 'auto'}} />
+   <img src={require('../../static/en-img/datastorage/data-1.png').default} alt="Large File Upload" style={{width: '500px', height: 'auto'}} />
 
 3. upload
 
@@ -100,7 +100,7 @@ For files larger than 200 MiB, we provide a solution for large file uploads.
    mc cp <path-to-file-to-upload> bucket-xx/pvc-35e6fa13-802a-4e93-8e55-05b13724xxxx
    ```
 
-   <img src={require('../../static/img/datastorage/data-3.png').default} alt="Large File Upload" style={{width: '700px', height: 'auto'}} />
+   <img src={require('../../static/en-img/datastorage/data-3.png').default} alt="Large File Upload" style={{width: '700px', height: 'auto'}} />
 
    **NOTE**: The upload speed depends on the local network.
 

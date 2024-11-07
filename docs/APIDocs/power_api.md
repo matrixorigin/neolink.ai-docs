@@ -10,15 +10,15 @@ sidebar_label: Computing API
 
 Select **API Credentials** from the dropdown menu in the upper-right corner of the platform, and you will be redirected to the API credentials page.
 
-<img src={require('../../static/img/apikey/token-1.png').default} alt="Get Token" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../static/en-img/apikey/token-1.png').default} alt="Get Token" style={{width: '800px', height: 'auto'}} />
 
 Click **New Token**, enter a custom token name, and the default validity period is 3650 days, which can be adjusted as needed.
 
-<img src={require('../../static/img/apikey/token-2.png').default} alt="Get Token" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../static/en-img/apikey/token-2.png').default} alt="Get Token" style={{width: '800px', height: 'auto'}} />
 
 After clicking **Confirm**, the newly generated token will appear in the list. Please note that the token is only generated once, so be sure to copy and save it properly! If the token is lost, you can create a new one or **regenerate** it.
 
-<img src={require('../../static/img/apikey/token-3.png').default} alt="Get Token" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../static/en-img/apikey/token-3.png').default} alt="Get Token" style={{width: '800px', height: 'auto'}} />
 
 ## Retrieving `region_id` and `clusterName`
 

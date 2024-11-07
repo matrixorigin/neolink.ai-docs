@@ -24,7 +24,7 @@ All Neolink images currently come with JupyterLab as a built-in tool, helping us
 
 ## Steps to Use
 
-Access the **GPU Instances** from the left sidebar, and under the built-in tools of the specific instance, click **JupyterLab** to enter the JupyterLab interface.
+Access the **GPU Instance** from the left sidebar, and under the built-in tools of the specific instance, click **JupyterLab** to enter the JupyterLab interface.
 
 <img src={require('../../static/en-img/qa/ssh-interrupt-1.png').default} alt="" style={{width: '600px', height: 'auto'}} />
 

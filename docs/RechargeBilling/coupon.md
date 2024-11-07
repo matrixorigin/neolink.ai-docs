@@ -12,11 +12,11 @@ Neolink.AI currently offers two types of coupons: Compute Coupons and Vouchers. 
 
 After completing the real-name authentication process, new users will receive free compute trial coupons. Please note that these trial coupons come with an expiration date. Users can check the details and usage conditions of their compute coupons on the Coupons page.
 
-<img src={require('../../static/img/billing/coupon-2.png').default} alt="Compute Coupon" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/billing/coupon-2.png').default} alt="Compute Coupon" style={{width: '600px', height: 'auto'}} />
 
 Click the **Use Now** button next to the compute coupon to be redirected to the instance creation page.
 
-<img src={require('../../static/img/billing/coupon-3.png').default} alt="Use Compute Coupon" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/billing/coupon-3.png').default} alt="Use Compute Coupon" style={{width: '600px', height: 'auto'}} />
 
 **NOTE**: After the coupon expires, regular pay-as-you-go pricing will apply. If you do not wish to continue using the instance, simply shut it down before the expiration date.
 
@@ -24,7 +24,7 @@ Click the **Use Now** button next to the compute coupon to be redirected to the 
 
 Users who make a one-time deposit of a certain amount will receive vouchers. Additionally, vouchers distributed during promotional events can be redeemed using a voucher code. Vouchers can be applied to all Neolink.AI platform products. Voucher details are available on the Coupons page.
 
-<img src={require('../../static/img/billing/coupon-1.png').default} alt="Voucher" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/billing/coupon-1.png').default} alt="Voucher" style={{width: '600px', height: 'auto'}} />
 
 ### Usage Guidelines:
 

@@ -8,12 +8,12 @@ In Neolink.AI, the server's default timeout for SSH connections is set to 30 min
 
 Click the **JupyterLab** button on the right side of the instance list to access the JupyterLab interface.
 
-<img src={require('../../static/img/qa/ssh-interrupt-1.png').default} alt="" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/qa/ssh-interrupt-1.png').default} alt="" style={{width: '600px', height: 'auto'}} />
 
 Then, click the terminal icon to directly access the instance's terminal interface. JupyterLab does not terminate processes by default when you close terminal or notebook tabs.
 
-<img src={require('../../static/img/qa/ssh-interrupt-2.png').default} alt="" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/qa/ssh-interrupt-2.png').default} alt="" style={{width: '600px', height: 'auto'}} />
 
-<img src={require('../../static/img/qa/ssh-interrupt-3.png').default} alt="" style={{width: '600px', height: 'auto'}} />
+<img src={require('../../static/en-img/qa/ssh-interrupt-3.png').default} alt="" style={{width: '600px', height: 'auto'}} />
 
 For more details on using JupyterLab, refer to the [JupyterLab Connection Guide](../Built-in_tools/jupyterlab.md).
