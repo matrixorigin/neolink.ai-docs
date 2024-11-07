@@ -8,11 +8,11 @@ sidebar_label: Images
 
 Neolink.AI provides a variety of official images. In the sidebar, select **Image Management** to view a list of official images. Choose the appropriate official image and click **Deploy**.
 
-<img src={require('../../static/img/imgmanagement/imagemanagement-1.png').default} alt="Upload Data" style={{width: '700px', height: 'auto'}} />
+<img src={require('../../static/en-img/imgmanagement/imagemanagement-1.png').default} alt="Upload Data" style={{width: '700px', height: 'auto'}} />
 
 You will be redirected to the instance creation page with the selected official image.
 
-<img src={require('../../static/img/imgmanagement/imagemanagement-2.png').default} alt="Upload Data" style={{width: '700px', height: 'auto'}} />
+<img src={require('../../static/en-img/imgmanagement/imagemanagement-2.png').default} alt="Upload Data" style={{width: '700px', height: 'auto'}} />
 
 ## Private Images
 
@@ -24,11 +24,11 @@ In the compute instance list, select **Save Image** on the right side of the ins
 
 **NOTE**: Only running instances can be saved as images.
 
-<img src={require('../../static/img/imgmanagement/imagemanagement-3.png').default} alt="Save Image" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../static/en-img/imgmanagement/imagemanagement-3.png').default} alt="Save Image" style={{width: '800px', height: 'auto'}} />
 
 In the pop-up window for saving the image, you can customize the image name and version. After saving, you can view the image details under **Image Management > Private Images**.
 
-<img src={require('../../static/img/imgmanagement/imagemanagement-4.png').default} alt="Save Image" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../static/en-img/imgmanagement/imagemanagement-4.png').default} alt="Save Image" style={{width: '800px', height: 'auto'}} />
 
 ### Image Management
 
@@ -36,4 +36,4 @@ In the **Image Management > Private Images** page, you can see the saved private
 
 **NOTE**: Deleting an image may affect the normal restart of instances. Please proceed with caution.
 
-<img src={require('../../static/img/imgmanagement/imagemanagement-5.png').default} alt="Image Management" style={{width: '800px', height: 'auto'}} />
+<img src={require('../../static/en-img/imgmanagement/imagemanagement-5.png').default} alt="Image Management" style={{width: '800px', height: 'auto'}} />

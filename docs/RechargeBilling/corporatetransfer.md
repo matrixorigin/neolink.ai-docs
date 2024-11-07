@@ -12,8 +12,8 @@ sidebar_label: Corporate Bank Transfer
 
 Please ensure that your **User ID** is included in the bank transfer remarks to improve the efficiency of the transaction. You can find your **User ID** by selecting **Account Center** from the top-right corner of the console and navigating to **My Account**.
 
-<img src={require('../../static/img/billing/bill.png').default} alt="User ID" style={{width: '500px', height: 'auto'}} />
-<img src={require('../../static/img/billing/bill4.png').default} alt="Account Center" style={{width: '400px', height: 'auto'}} />
+<img src={require('../../static/en-img/billing/bill.png').default} alt="User ID" style={{width: '500px', height: 'auto'}} />
+<img src={require('../../static/en-img/billing/bill4.png').default} alt="Account Center" style={{width: '400px', height: 'auto'}} />
 
 - **Alipay:** Funds will be credited within 1 hour.
 - **Bank Transfer:** Funds will be credited within 1 business day.
