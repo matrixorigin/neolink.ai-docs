@@ -1,10 +1,10 @@
 ---
 sidebar_position: 2
-title: Using Model Services
-sidebar_label: Using Model Services
+title: Using Model Service
+sidebar_label: Using Model Service
 ---
 
-The Model Hub hosts various types of intelligent models, which you can access and use through API calls.
+The Model Service hosts various types of intelligent models, which you can access and use through API calls.
 
 ## Steps
 

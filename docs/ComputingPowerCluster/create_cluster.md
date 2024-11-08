@@ -8,7 +8,7 @@ The platform offers dedicated host leasing services, including models such as H2
 
 ## Create a Cluster
 
-Navigate to **BM Cluster** from the left sidebar, click **Create Cluster**, select the cluster network, GPU model, and cluster name, and click **Confirm**.
+Navigate to **BM Cluster** from the left sidebar, click **Create Cluster**, select the cluster network, GPU model, and cluster name, and click **OK**.
 
 <img src={require('../../static/en-img/powercluster/create-cluster-1.png').default} alt="Create Cluster" style={{width: '1000px', height: 'auto'}} />
 

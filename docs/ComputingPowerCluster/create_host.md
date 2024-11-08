@@ -6,7 +6,7 @@ sidebar_label: Create Host
 
 ## Steps
 
-1. Navigate to **BM Hosts** from the left sidebar, and click **Create Host**.
+1. Navigate to **BM Host** from the left sidebar, and click **Create Host**.
 
    <img src={require('../../static/en-img/powercluster/create-host-1.png').default} alt="Create Host" style={{width: '1000px', height: 'auto'}} />
 

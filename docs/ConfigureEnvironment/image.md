@@ -20,7 +20,7 @@ If you have configured an instance environment and wish to reuse it when switchi
 
 ### Save Image
 
-In the compute instance list, select **Save Image** on the right side of the instance details. This will save the instance environment as a private image, including all files on the system disk. Note that data disks will not be saved.
+In the compute instance list, select **Save-to-image** on the right side of the instance details. This will save the instance environment as a private image, including all files on the system disk. Note that data disks will not be saved.
 
 **NOTE**: Only running instances can be saved as images.
 

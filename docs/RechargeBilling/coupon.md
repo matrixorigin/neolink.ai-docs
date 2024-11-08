@@ -8,7 +8,7 @@ Neolink.AI currently offers two types of coupons: Compute Coupons and Vouchers. 
 
 **NOTE**: Compute Coupons and Vouchers cannot be used if there are outstanding payments.
 
-## Compute Coupons
+## Trial Coupons
 
 After completing the real-name authentication process, new users will receive free compute trial coupons. Please note that these trial coupons come with an expiration date. Users can check the details and usage conditions of their compute coupons on the Coupons page.
 
@@ -20,7 +20,7 @@ Click the **Use Now** button next to the compute coupon to be redirected to the 
 
 **NOTE**: After the coupon expires, regular pay-as-you-go pricing will apply. If you do not wish to continue using the instance, simply shut it down before the expiration date.
 
-## Vouchers
+## Cash Vouchers
 
 Users who make a one-time deposit of a certain amount will receive vouchers. Additionally, vouchers distributed during promotional events can be redeemed using a voucher code. Vouchers can be applied to all Neolink.AI platform products. Voucher details are available on the Coupons page.
 

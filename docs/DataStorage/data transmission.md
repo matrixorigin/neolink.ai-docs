@@ -34,7 +34,7 @@ zip -r my_folder.zip my_folder
 
 ## Uploading with Storage Management
 
-The [Storage Management](createstorage) section explains how to upload files using the storage management feature.
+The [Storage](createstorage) section explains how to upload files using the storage management feature.
 
 ## Uploading and Downloading with the scp Command
 

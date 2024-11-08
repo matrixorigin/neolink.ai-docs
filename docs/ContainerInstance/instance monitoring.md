@@ -18,16 +18,16 @@ In the storage information section, you can view detailed information about the 
 
 <img src={require('../../static/en-img/monitoring/monitoring-2.png').default} alt="Storage" style={{width: '1000px', height: 'auto'}} />
 
-### Routing Configuration
+### Configure-Route
 
-On the routing configuration page, you can add custom external service configurations to expose services running inside the container to external networks.
+On the Configure-Route page, you can add custom external service configurations to expose services running inside the container to external networks.
 
 <img src={require('../../static/en-img/monitoring/monitoring-8.png').default} alt="Routing Configuration" style={{width: '1000px', height: 'auto'}} />
 <img src={require('../../static/en-img/monitoring/monitoring-9.png').default} alt="Routing Configuration" style={{width: '1000px', height: 'auto'}} />
 
-### Monitoring
+### Monitor
 
-By selecting the compute instance, you can access the monitoring page to view various metrics, including data disk usage, GPU and CPU utilization, GPU memory usage, memory consumption, power consumption, and temperature.
+By selecting the compute instance, you can access the monitor page to view various metrics, including data disk usage, GPU and CPU utilization, GPU memory usage, memory consumption, power consumption, and temperature.
 
 <img src={require('../../static/en-img/monitoring/monitoring-7.png').default} alt="Monitoring" style={{width: '1000px', height: 'auto'}} />
 
@@ -39,14 +39,14 @@ In the instance details page, select **Logs** to access the container instance l
 
 <img src={require('../../static/en-img/monitoring/monitoring-3.png').default} alt="Logs" style={{width: '1000px', height: 'auto'}} />
 
-### Events
+### Event
 
-In the Events section, you can view the events related to the container instance along with their timestamps.
+In the Event section, you can view the events related to the container instance along with their timestamps.
 
 <img src={require('../../static/en-img/monitoring/monitoring-4.png').default} alt="Events" style={{width: '1000px', height: 'auto'}} />
 
-### Processes
+### Process
 
-In the **Processes** section, you can view information about the current container’s processes, including CPU usage, physical memory, and virtual memory.
+In the **Process** section, you can view information about the current container’s processes, including CPU usage, physical memory, and virtual memory.
 
 <img src={require('../../static/en-img/monitoring/monitoring-5.png').default} alt="Processes" style={{width: '1000px', height: 'auto'}} />

@@ -6,7 +6,7 @@ sidebar_label: Create API Key
 
 API Keys allow access to all models in the Model Hub. API Keys are valid long-term, so please do not share the key in public environments and store it securely. Follow the steps below to create an API Key:
 
-1. Go to **API Credentials** in the left sidebar and click **API KEY**.  
+1. Go to **API Management** in the left sidebar and click **API KEY**.  
    <img src={require('../../static/en-img/apikey/apikey1.png').default} alt="Model Hub" style={{width: '1000px', height: 'auto'}} />
 
 2. Click **Create API KEY**.  
