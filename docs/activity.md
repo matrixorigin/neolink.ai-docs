@@ -1,7 +1,7 @@
 ---
-sidebar_position: 17
-title: Event Benefits
-sidebar_label: Event Benefits
+sidebar_position: 16
+title: Event Benefits🎉🎉🎉
+sidebar_label: Event Benefits🎉🎉🎉
 ---
 
 # 📢 Double 11 Celebration, Amazing Benefits are Here! 🎉
