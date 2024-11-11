@@ -175,6 +175,10 @@
     "message": "联系我们",
     "description": "The label for category Contact Us in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.activity": {
+    "message": "活动福利🎉🎉🎉",
+    "description": "The label for category activity🎉🎉🎉 in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Container Instance.link.generated-index.description": {
     "message": "5 分钟快速了解 neolink.ai.",
     "description": "The generated-index page description for category Container Instance in sidebar tutorialSidebar"
@@ -310,5 +314,9 @@
   "sidebar.tutorialSidebar.category.常见问题.link.generated-index.description": {
     "message": " ",
     "description": "The generated-index page description for category 常见问题 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.活动福利🎉🎉🎉.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category 活动化福利🎉🎉🎉 in sidebar tutorialSidebar"
   }
 }
