@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: Create Compute Instance
-sidebar_label: Create Compute Instance
+title: Create GPU Instance
+sidebar_label: Create GPU Instance
 ---
 
 Compute instances are commonly used for algorithm development and model fine-tuning. If you are working with a small dataset, you can choose a single-GPU instance or an 8-GPU full machine instance. The platform provides local data disks and associated file storage. After completing your development or fine-tuning using the terminal, you can download your results and release the compute instance.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: Using Compute Instances
-sidebar_label: Using Compute Instances
+title: Using GPU Instance
+sidebar_label: Using GPU Instance
 ---
 
 ## Create an Instance
@@ -11,7 +11,7 @@ Go to the Overview page, navigate to **GPU Instance** in the sidebar, and click 
 
 ## Renting an Instance
 
-On the **Create Instance** page, select the **Region**, **Billing Method** (pay-as-you-go, daily, weekly, or monthly), **GPU Model**, **Cards**, and **GPU Specification**. Choose the **Image** (pre-installed with different deep learning frameworks), and then click **Create**. If you need more disk space to store data, set the desired expansion size.
+On the **Create Instance** page, select the **Region**, **Payment Method** (pay-as-you-go, daily, weekly, or monthly), **GPU Model**, **Cards**, and **GPU Specification**. Choose the **Image** (pre-installed with different deep learning frameworks), and then click **Create**. If you need more disk space to store data, set the desired expansion size.
 
 <img src={require('../../static/en-img/getstarted/getstarted-create-instance3.png').default} alt="Rent Instance" style={{width: '1000px', height: 'auto'}} />
 

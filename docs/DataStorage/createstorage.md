@@ -8,7 +8,7 @@ Storage management provides network-shared storage that can be mounted to differ
 
 ## Add Storage
 
-Navigate to the **Compute Instances** page, click on a specific instance, and under **Storage**, you can add storage and specify the path where the storage will be mounted in the instance. Once confirmed, the storage will be accessible through the specified mount path within the instance.
+Navigate to the **GPU Instance** page, click on a specific instance, and under **Storage**, you can add storage and specify the path where the storage will be mounted in the instance. Once confirmed, the storage will be accessible through the specified mount path within the instance.
 
 ## Shared Storage
 

@@ -7,7 +7,9 @@ sidebar_label: Introduction
 
 ## Neolink.AI
 
-Neolink.AI is a comprehensive platform that integrates computing power, data, knowledge, models, and enterprise applications. It offers cost-effective GPU resources and an all-in-one data and AI platform service for the next generation of AI-native applications.
+Neolink.AI is a comprehensive platform that integrates GPU, data, knowledge, models, and enterprise applications. It offers cost-effective GPU resources and an all-in-one data and AI platform service for the next generation of AI-native applications.
+
+Visit the neolink-ai.com website (https://neolink-ai.com/en) and click “Console” in the top right corner to register.
 
 ### Use Cases
 

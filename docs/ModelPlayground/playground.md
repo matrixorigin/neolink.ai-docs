@@ -1,12 +1,12 @@
 ---
 sidebar_position: 6
-title: experiment
-sidebar_label: experiment
+title: playground
+sidebar_label: playground
 ---
 
 Exploration is an online interactive platform where users can input data and observe model outputs directly without programming, ideal for quickly testing and understanding model performance.
 
-1. Go to the **Exploration** Center in the left sidebar. On the **Exploration** Center page, you can see the available models, and filter them by Model.
+1. Go to the **playground** Center in the left sidebar. On the **playground** Center page, you can see the available models, and filter them by Model.
 
 <img src={require('../../static/en-img/experience/1.png').default} alt="体验中心" style={{width: '1000px', height: 'auto'}} />
 
