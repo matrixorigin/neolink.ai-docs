@@ -14,6 +14,12 @@ After the instance is successfully created and its status shows **Running**, cop
 
 Enter the command in your local terminal, and use the copied SSH password to log in and access the compute instance.
 
+NOTE: When connecting via SSH on a Windows system, if you encounter a Permission denied issue, please check the following:
+
+1. Whether port 22 is open on Windows 10.
+
+2. Press Windows key + R, type services.msc, and check whether the OpenSSH SSH Server service is enabled.
+
 ## Passwordless Login
 
 Neolink.AI supports configuring SSH public keys to enable passwordless login, reducing the need to copy SSH passwords and providing a more secure and reliable method of access.
