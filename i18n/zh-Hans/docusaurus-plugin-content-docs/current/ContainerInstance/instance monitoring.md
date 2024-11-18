@@ -33,6 +33,11 @@ sidebar_label: 实例详情
 
 <img src={require('../../../../../static/img/monitoring/monitoring-6.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
 
+### 快照
+
+在该实例的快照界面，你可以查看快照的状态、保存失败原因等信息。
+<img src={require('../../../../../static/img/monitoring/monitoring-10.png').default} alt="存储" style={{width: '1000px', height: 'auto'}} />
+
 ### 日志
 
 在该实例的详情界面中，选择**日志**。进入容器实例日志页面，可查看当前容器实例的日志信息，主要会在实例启动时打印 cuda 信息和 jupyter 启动的日志信息。此外，启动完成后，您还可以查看 Jupyter 操作的相关日志信息。
