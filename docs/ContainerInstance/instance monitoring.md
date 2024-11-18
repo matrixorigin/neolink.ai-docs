@@ -33,6 +33,11 @@ By selecting the compute instance, you can access the monitor page to view vario
 
 <img src={require('../../static/en-img/monitoring/monitoring-6.png').default} alt="Monitoring" style={{width: '1000px', height: 'auto'}} />
 
+### Snapshot
+
+On the snapshot page for this instance, you can view the status of snapshots, reasons for any save failures, and other related information.
+<img src={require('../../static/en-img/monitoring/monitoring-10.png').default} alt="Logs" style={{width: '1000px', height: 'auto'}} />
+
 ### Logs
 
 In the instance details page, select **Logs** to access the container instance logs. Here, you can view logs related to the current container instance, including CUDA logs and Jupyter startup logs during initialization. After the instance is running, you can also access logs related to Jupyter operations.
