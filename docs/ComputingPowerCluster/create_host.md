@@ -10,6 +10,6 @@ sidebar_label: Create Host
 
    <img src={require('../../static/en-img/powercluster/create-host-1.png').default} alt="Create Host" style={{width: '1000px', height: 'auto'}} />
 
-2. On the configuration page, select the payment plan (monthly or yearly; can be renewed monthly or yearly), choose the host specifications, operating system, enter the host name, select the duration, and finally click **Create**.
+2. On the configuration page, select the payment method (daily, weekly, monthly, or yearly; renewable for daily, weekly, monthly, or yearly plans), host specifications, operating system, public network (shared or dedicated bandwidth), enter the host name, choose the duration, and finally click **Create**.
 
    <img src={require('../../static/en-img/powercluster/create-host-2.png').default} alt="Create Host" style={{width: '1000px', height: 'auto'}} />
